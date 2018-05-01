@@ -1,0 +1,27 @@
+\cvsection{Project}
+\begin{cventries}
+ <$ for proj in project $>
+  \cventry
+    {<! proj.title !>}
+    {<! proj.subtitle !>}
+    {<! proj.location.city !>}
+    {<! proj.startDate !> / <! proj.endDate !>}
+    {
+        %<$ if proj.highlights $>
+          \begin{cvitems}
+            %<$ for highlight in proj.highlights $>
+                \item{<! highlight.description !>}
+                %<$ if highlight.additionalDescriptions $>
+                    \begin{cvitemssub}
+                    %<$ for ad in highlight.additionalDescriptions $>
+                        \item{<! ad.description !>}
+                    %<$ endfor $>
+                    \end{cvitemssub}
+                %<$ endif $>
+            %<$ endfor $>
+          \end{cvitems}
+        %<$ endif $>
+    }
+ <$ endfor $>
+\end{cventries}
+

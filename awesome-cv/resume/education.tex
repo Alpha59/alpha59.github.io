@@ -1,0 +1,26 @@
+\cvsection{Education}
+\begin{cventries}
+ <$ for college in education $>
+  \cventry
+    {<! college.studyType !> in <! college.area !>}
+    {<! college.institution !>}
+    {<! college.location.city !>}
+    {<! college.startDate !> / <! college.endDate !>}
+    {
+        %<$ if college.highlights $>
+          \begin{cvitems}
+            %<$ for highlight in college.highlights $>
+                \item{<! highlight.description !>}
+                %<$ if highlight.additionalDescriptions $>
+                    \begin{cvitemssub}
+                    %<$ for ad in highlight.additionalDescriptions $>
+                        \item{<! ad.description !>}
+                    %<$ endfor $>
+                    \end{cvitemssub}
+                %<$ endif $>
+            %<$ endfor $>
+          \end{cvitems}
+        %<$ endif $>
+    }
+ <$ endfor $>
+\end{cventries}
