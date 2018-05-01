@@ -2,7 +2,7 @@
     <head>
      <!-- Metas -->
         <meta charset="utf-8">
-        <title>SPLIT - PERSONAL VCARD HTML TEMPLATE</title>
+        <title>John Ailor Resume Site</title>
         <meta name="description" content="">
           <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Css -->
@@ -39,19 +39,13 @@
                     <!--Main header-->
                     <div class="main-header">
                     <!--Profile image-->
-                    <figure class="img-profile">
-                        <img src="img/profile.jpg" alt=""/>
-                        <figcaption class="name-profile">
-                        <span>{{ basics.name }} <sup>&reg;</sup></span>
-                        </figcaption>
-                    </figure>
                     <!--End profile image-->
                             <!--Main navigation-->
                                 <nav id="main-nav" class="main-nav clearfix tabbed">
                                 <ul>
                                     <li ><a href="index.html#about"><i class="icon-user"></i>About</a></li>
-                                    <li><a  href="index.html#portfolio"><i class="icon-camera"></i>Portfolio</a></li>
-                                    <li><a  href="index.html#blog"><i class="icon-chat"></i>Blog</a></li>
+	{#<li><a  href="index.html#portfolio"><i class="icon-camera"></i>Portfolio</a></li>#}
+	{#<li><a  href="index.html#blog"><i class="icon-chat"></i>Blog</a></li>#}
                                     <li><a  href="index.html#contact"><i class="icon-phone"></i>Contact</a></li>
                                 </ul>
                                 </nav>
@@ -60,9 +54,9 @@
                 <!--End main header-->
                 <div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
                     <ul class="social">
-                    <li><a href="index.html#"><i class="icon-github"></i></a></li>
-                    <li><a href="index.html#"><i class="icon-instagram"></i></a></li>
-                    <li><a href="index.html#"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="{{basics.profiles[1].url}}"><i class="icon-github"></i></a></li>
+                    {#<li><a href="index.html#"><i class="icon-instagram"></i></a></li>#}
+                    <li><a href="{{basics.profiles[0].url}}"><i class="icon-linkedin"></i></a></li>
                 </ul>
                 <p>&copy; 2015 Mutationthemes.</p>
                 </div>
@@ -75,13 +69,13 @@
                         <!--About Tab-->
                     <section id="about" class="bgWhite ofsInBottom">
                         {% include 'templates/about.html' %}
-                    </section>
+                    </section>{#
                     <section id="portfolio" class="bgWhite ofsInBottom">
                         {% include 'templates/portfolio.html' %}
-                    </section>
+                    </section>#}{#
                     <section id="blog" class="bgWhite ofsInBottom">
                         {% include 'templates/blog.html' %}
-                    </section>
+                    </section>#}
                     <section id="contact" class="bgWhite ofsInBottom">
                         {% include 'templates/contact.html' %}
                     </section>

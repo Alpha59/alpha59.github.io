@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 rm -rf output/
 rm -rf finals/
-mkdir finals/
-cp -r ./templates/* finals/
+rm *.log
+cp -r ./templates/* ./
 
 hackmyresume validate resume.json
 hackmyresume analyze resume.json
@@ -37,7 +37,7 @@ xelatex resume.tex
 # update LinkedIn: https://www.npmjs.com/package/node-linkedin
 
 cd ../../
-cp ./output/awesome-cv/resume.pdf ./finals/John_Ailor.pdf
-cp ./output/templates/index.html ./finals/index.html
+cp ./output/awesome-cv/resume.pdf ./John_Ailor.pdf
+cp ./output/templates/index.html ./index.html
 
-#rm -rf output/
+rm -rf output/
