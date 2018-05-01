@@ -151,17 +151,17 @@
                                                 <div class="col-md-12">
                                                     <!--Experience holder-->
                                                     <div class="exp-holder margTop">
-	                    {% for job in work %}
+	                    {% for ed in education %}
 	                        <!--Experience-->
 	                        <div class="exp">
 	                        <div class="hgroup" >
-	                            <h4>{{job.position}} – {{job.company}} </h4>
-	                            <h6><i class="icon-calendar"></i>{{job.startDate}} /<span class="current">{{job.endDate}}</span></h6>
+	                            <h4>{{ed.institution}}</h4>
+	                            <h6><i class="icon-calendar"></i>{{ed.startDate}} /<span class="current">{{ed.endDate}}</span></h6>
 	                        </div>
 	                        <p>
-	                            {% if job.highlights %}
+	                            {% if ed.highlights %}
 	                                <ul>
-		{% for highlight in job.highlights %}
+		{% for highlight in ed.highlights %}
 		    <li>{{highlight.description}}</li>
 		    {% if highlight.additionalDescription %}
 		        <ul>
@@ -216,7 +216,6 @@
                                         <div class="row ">
                                             <div class="col-md-12">
                                                 <a class="but opc-1 ico" href="John_Ailor.pdf">Download my cv</a>
-                                                <a class="but opc-2 ico" href="John_Ailor.pdf">Print my resume</a>
                                             </div>
                                             </div>
                                             <!--End row-->

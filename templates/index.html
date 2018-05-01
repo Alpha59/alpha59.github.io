@@ -44,8 +44,6 @@
                                 <nav id="main-nav" class="main-nav clearfix tabbed">
                                 <ul>
                                     <li ><a href="index.html#about"><i class="icon-user"></i>About</a></li>
-	{#<li><a  href="index.html#portfolio"><i class="icon-camera"></i>Portfolio</a></li>#}
-	{#<li><a  href="index.html#blog"><i class="icon-chat"></i>Blog</a></li>#}
                                     <li><a  href="index.html#contact"><i class="icon-phone"></i>Contact</a></li>
                                 </ul>
                                 </nav>
@@ -55,7 +53,6 @@
                 <div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
                     <ul class="social">
                     <li><a href="{{basics.profiles[1].url}}"><i class="icon-github"></i></a></li>
-                    {#<li><a href="index.html#"><i class="icon-instagram"></i></a></li>#}
                     <li><a href="{{basics.profiles[0].url}}"><i class="icon-linkedin"></i></a></li>
                 </ul>
                 <p>&copy; 2015 Mutationthemes.</p>
@@ -69,13 +66,7 @@
                         <!--About Tab-->
                     <section id="about" class="bgWhite ofsInBottom">
                         {% include 'templates/about.html' %}
-                    </section>{#
-                    <section id="portfolio" class="bgWhite ofsInBottom">
-                        {% include 'templates/portfolio.html' %}
-                    </section>#}{#
-                    <section id="blog" class="bgWhite ofsInBottom">
-                        {% include 'templates/blog.html' %}
-                    </section>#}
+                    </section>
                     <section id="contact" class="bgWhite ofsInBottom">
                         {% include 'templates/contact.html' %}
                     </section>
