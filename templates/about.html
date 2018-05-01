@@ -21,23 +21,7 @@
                                 <h1>{{ basics.name }}</h1>
                                 <h3>{{ basics.label }} / {{ basics.sublabel}}</h3>
                             </div>
-                            <!--Row-->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error
-                                     sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                     eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                                     vitae dicta sunt explicabo. Nemo enim ipsam voluptatem. </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error
-                                     sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                     eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                                     vitae dicta sunt explicabo. Nemo enim ipsam voluptatem. </p>
-                                </div>
-                            </div>
-                            <!--End row-->
-                            </div>
+                        </div>
                             <!--End block content-->
                             <!--Block content-->
                             <div class="block-content">
@@ -101,9 +85,9 @@
 	                        <ul>
 	                            {% for highlight in job.highlights %}
 	                                <li>{{highlight.description}}</li>
-	                                {% if highlight.additionalDescription %}
+	                                {% if highlight.additionalDescriptions %}
 		<ul>
-		    {% for ad in highlight.additionalDescription %}
+		    {% for ad in highlight.additionalDescriptions %}
 		        <li>{{ad.description}}</li>
 		    {% endfor %}
 		</ul>
@@ -156,16 +140,16 @@
 	                        <div class="exp">
 	                        <div class="hgroup" >
 	                            <h4>{{ed.institution}}</h4>
-	                            <h6><i class="icon-calendar"></i>{{ed.startDate}} /<span class="current">{{ed.endDate}}</span></h6>
+	                            <h6><i class="icon-calendar"></i>{{ed.startDate}} / {{ed.endDate}}</h6>
 	                        </div>
 	                        <p>
 	                            {% if ed.highlights %}
 	                                <ul>
 		{% for highlight in ed.highlights %}
 		    <li>{{highlight.description}}</li>
-		    {% if highlight.additionalDescription %}
+		    {% if highlight.additionalDescriptions %}
 		        <ul>
-		            {% for ad in highlight.additionalDescription %}
+		            {% for ad in highlight.additionalDescriptions %}
 		                <li>{{ad.description}}</li>
 		            {% endfor %}
 		        </ul>
