@@ -37,6 +37,9 @@ xelatex resume.tex
 # update LinkedIn: https://www.npmjs.com/package/node-linkedin
 
 cd ../../
+
+node ./normalize.js
+
 cp ./output/awesome-cv/resume.pdf ./John_Ailor.pdf
 cp ./output/templates/index.html ./index.html
 

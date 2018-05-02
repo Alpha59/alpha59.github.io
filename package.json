@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flat": "^4.0.0",
     "mutex": "github:smo-key/MuTeX"
   }
 }
