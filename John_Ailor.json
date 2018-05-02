@@ -22,7 +22,7 @@
       {
         "network": "LinkedIn",
         "username": "john-r-ailor",
-        "url": "http://www.linkedin.com/in/john-r-ailor-166a2140/"
+        "url": "http://www.linkedin.com/in/john-r-ailor/"
       },
       {
         "network": "Github",
@@ -41,16 +41,16 @@
       "summary": "Description... Python",
       "highlights": [
         "Worked with small team to build and launch a new brand website; now handles about 4 million monthly visitors",
-        "Utilized Node.js and Hapi.js web-framework to interactive with API services",
+        "Utilized Node.js and Hapi.js web-framework to interact with API services",
         "Harnessed the power of ES6 and functional programming (Ramda.js) to develop rich user interfaces",
-        "Developed using stream based events (most.js) to handle event based programming paradigms",
-        "Used LESS based CSS pre-compilation to style and format client facing website",
-        "Successfully launched website globally at beginning of April 2015, and stayed with team for maintenance till month`s end",
-        "Worked with a team of developers to build a product management system to be used with multiple brands; collectively handling about 26 million monthly visitors",
+        "Developed using stream-based events (most.js) to handle event based programming paradigms",
+        "Used LESS-based CSS pre-compilation to style and format client-facing website",
+        "Successfully launched website globally at beginning of April 2015",
+        "Worked with a team of developers to build a product management system to be used with multiple brands, collectively handling about 26 million monthly visitors",
         "Worked with Oracle/Django/jQuery to build an interactive system to manage products for microservices architecture",
-        "Converted all ES5 code to ES6 and updated HTML templates for re-use-ability",
+        "Converted all ES5 code to ES6 and updated HTML templates for reuseability",
         "Used Python services to migrate legacy product data to new system",
-        "Used SASS based CSS pre-compilation to style and format internally facing website",
+        "Used SASS-based CSS pre-compilation to style and format internally facing website",
         "Successfully launched new product management system to internal clients in August 2015, stayed with team for maintenance and feature improvement",
         "Re-imagined and rebuilt the e-commerce promotion and coupon management suite",
         "Coordinated with e-commerce merchandisers to develop requirements",
@@ -67,12 +67,12 @@
       "summary": "Description... Python",
       "highlights": [
         "Worked to deploy and develop on AWS EC2 Linux and S3 instances",
-        "Completed numerous installs of C++, Node.js, php, Apache httpd, Mongo and other software",
+        "Completed numerous installs of C++, Node.js, php, Apache httpd, Mongo, and other software",
         "Developed HTTP scripts in C++, and php, as well as programs in C++, Python, and Node.js",
         "Enabled real-time requests for gaming and live applications in Node.js",
         "Managed a team of eight programmers and a graphic artist through several projects",
         "Pitched my software architectures successfully to clients, investors, and technology partners",
-        "Worked with CEO to manage day to day operations of company and personnel management; including hiring 20 new employees",
+        "Worked with CEO to manage day-to-day operations of company and personnel management, including hiring 20 new employees",
         "Oversaw design and execution of several client and in-house projects",
         "Worked with Unity, Unreal, and Oculus Rift for a temporary interactive installation"
       ]
@@ -102,9 +102,9 @@
       "endDate": "2013-09-25",
       "summary": "Description... Python",
       "highlights": [
-        "Worked with a design team to build a cross platform mobile theme in CSS and JavaScript which was deployed to internal teams (SAPUI5)",
+        "Worked with a design team to build a cross-platform mobile theme in CSS and JavaScript, which was deployed to internal teams (SAPUI5)",
         "Coordinated with numerous departments to gather requirements and develop internal department pages (SAP Portal)",
-        "Worked to build and update department specific pages on the SAP internal social network (SAP JAM)",
+        "Worked to build and update department-specific pages on the SAP internal social network (SAP JAM)",
         "Trained business users in the use of HTML for the basic purpose of intranet editing in order to ensure continued maintenance of system content"
       ]
     },
@@ -130,10 +130,10 @@
       "endDate": "2012-04-01",
       "summary": "Description... Python",
       "highlights": [
-        "Converted Database centric proprietary Rental Management System and Tenant portal from ASP.net 1.1 to 4.0 utilizing code behind and Master Pages in VB and C++",
-        "Simultaneously updated database from SQL Server 2000 to SQL Server 2008 and standardized table and stored procedure naming conventions",
+        "Converted Database-centric proprietary Rental Management System and Tenant portal from ASP.net 1.1 to 4.0 utilizing code behind and Master Pages in VB and C++",
+        "Simultaneously updated database from SQL Server 2000 to SQL Server 2008, standardized table and stored procedure naming conventions",
         "Photographed buildings and edited images in Photoshop in order to further renters` interest",
-        "Helped introduce semi-agile work-flow with focus on pair-programming using VisualSVN for Visual Studio"
+        "Helped introduce semi-agile workflow with focus on pair programming using VisualSVN for Visual Studio"
       ]
     }
   ],

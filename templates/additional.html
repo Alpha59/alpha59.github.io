@@ -1,54 +1,6 @@
-                        <!--About -->
-                        <div class="about">
-                            <!--Main title-->
-                                <div class="main-title">
-                                    <h1>who am i</h1>
-                                    <div class="divider">
-                                            <div class="zigzag large clearfix "  data-svg-drawing="yes" >
-<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-    29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-</svg>
-</div>
-                                    </div>
-                                </div>
-                            <!--End main title-->
-                        <!--Content-->
-                        <div class="content">
-                            <!--Block content-->
-                            <div class="block-content margBSmall">
-                            <div class=" profile margBSmall">
-                                <h1>{{ basics.name }}</h1>
-                                <h3>{{ basics.label }} / {{ basics.sublabel}}</h3>
-                            </div>
-                        </div>
-                            <!--End block content-->
-                            <!--Block content-->
-                            <div class="block-content">
-                                <div class="info">
-                                    <!--Row-->
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <ul class="info-list clearfix">
-	            <li><span class="inf">Name </span>  <span class="value">{{ basics.name }}</span></li>
-	            <li><span class="inf">LinkedIn</span>  <span class="value"><a href="{{basics.profiles[0].url}}">{{ basics.profiles[0].username }}</a></span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <ul class="info-list">
-	            <li><span class="inf">Email</span>  <span class="value">{{ basics.email }}</span></li>
-	            <li><span class="inf">Phone</span>  <span class="value">{{ basics.phone }}</span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!--End row-->
-                                </div>
-                            </div>
-                            <!--End block content-->
-                        </div>
                         <!--End content-->
                                 <div class="main-title">
-                                    <h1>experience</h1>
+                                    <h1>projects</h1>
                                         <div class="divider">
                                                 <div class="zigzag large clearfix "  data-svg-drawing="yes" >
     <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -64,24 +16,25 @@
                                     <!--Block content-->
                                     <div class="block-content ">
                                     <!--Timeline-->
-                                    <div class="timeline experience">
+                                    <div class="timeline project">
                                            <!--Row-->
                                         <div class="row ">
                                             <div class="col-md-12">
                                                 <!--Experience holder-->
                                                 <div class="exp-holder margTop">
 
-	            {% for job in work %}
+	            {% for proj in project %}
 	                <!--Experience-->
 	                <div class="exp">
 	                <div class="hgroup" >
-	                    <h4>{{job.position}} – {{job.company}} </h4>
-	                    <h6><i class="icon-calendar"></i>{{job.startDate}} / {{job.endDate}}</h6>
+	                    <h4>{{proj.title}}</h4>
+	                    <h5>{{proj.subtitle}}</h5>
+	                    <h6><i class="icon-calendar"></i>{{proj.startDate}} / {{proj.endDate}}</h6>
 	                </div>
 	                <p>
-	                    {% if job.highlights %}
+	                    {% if proj.highlights %}
 	                        <ul>
-	                            {% for highlight in job.highlights %}
+	                            {% for highlight in proj.highlights %}
 	                                <li>{{highlight.description}}</li>
 	                                {% if highlight.additionalDescriptions %}
 		<ul>
@@ -111,7 +64,7 @@
                         <!--End content-->
                             <!--Main title-->
                                 <div class="main-title">
-                                    <h1>education</h1>
+                                    <h1>Extracurricular</h1>
                                         <div class="divider">
                                                 <div class="zigzag large clearfix "  data-svg-drawing="yes" >
     <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -127,23 +80,24 @@
                                         <!--Block content-->
                                         <div class="block-content">
                                         <!--Timeline-->
-                                        <div class="timeline education">
+                                        <div class="timeline activity">
                                                <!--Row-->
                                             <div class="row ">
                                                 <div class="col-md-12">
                                                     <!--Experience holder-->
                                                     <div class="exp-holder margTop">
-	                    {% for ed in education %}
+	                    {% for activ in volunteer %}
 	                        <!--Experience-->
 	                        <div class="exp">
 	                        <div class="hgroup" >
-	                            <h4>{{ed.institution}}</h4>
-	                            <h6><i class="icon-calendar"></i>{{ed.startDate}} / {{ed.endDate}}</h6>
+	                            <h4>{{activ.organization}}</h4>
+	                            <h5>{{activ.position}}</h5>
+	                            <h6><i class="icon-calendar"></i>{{activ.startDate}} / {{activ.endDate}}</h6>
 	                        </div>
 	                        <p>
-	                            {% if ed.highlights %}
+	                            {% if activ.highlights %}
 	                                <ul>
-		{% for highlight in ed.highlights %}
+		{% for highlight in activ.highlights %}
 		    <li>{{highlight.description}}</li>
 		    {% if highlight.additionalDescriptions %}
 		        <ul>
@@ -193,5 +147,4 @@
                                             <!--End row-->
                                         </div>
                                         <!--End button-->
-                        </div>
                         <!--End about-->

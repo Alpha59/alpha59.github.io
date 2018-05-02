@@ -579,6 +579,15 @@
     line-height:45px;
 }
 
+/* https://www.northeastern.edu/crossing/wp-content/themes/nu/assets/styles/sass/partials/vendor/icons/_fontello.scss */
+
+.timeline.activity:after{
+    content: '\e84f';
+}
+
+.timeline.project:after{
+    content: '\e83d';
+}
 
 .timeline.experience:after{
     content: '\e8ba';

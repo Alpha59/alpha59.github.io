@@ -31,15 +31,13 @@
                                         <div class="col-md-6">
                                             <ul class="info-list clearfix">
 	            <li><span class="inf">Name </span>  <span class="value">{{ basics.name }}</span></li>
-                                                <li><span class="inf">Date of birth</span>  <span class="value">[Redacted]</span></li>
-	            <li><span class="inf">Address</span>  <span class="value">{{ basics.location.address }} {{ basics.location.city }}</span></li>
+	            <li><span class="inf">LinkedIn</span>  <span class="value"><a href="{{basics.profiles[0].url}}">{{ basics.profiles[0].username }}</a></span></li>
                                             </ul>
                                         </div>
                                         <div class="col-md-6">
                                             <ul class="info-list">
 	            <li><span class="inf">Email</span>  <span class="value">{{ basics.email }}</span></li>
 	            <li><span class="inf">Phone</span>  <span class="value">{{ basics.phone }}</span></li>
-	            <li><span class="inf">LinkedIn</span>  <span class="value"><a href="{{basics.profiles[0].url}}">{{ basics.profiles[0].username }}</a></span></li>
                                             </ul>
                                         </div>
                                     </div>
