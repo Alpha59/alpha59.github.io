@@ -146,11 +146,11 @@
       "endDate": "2013-09-01",
       "summary": "Worked to re-design and ....",
       "highlights": [
-        "Managed Audio and Visual technology for the church services, and band performances.",
-        "Installed several sound boards, kept technology and equipment up to date.",
-        "Worked with church committee to ensure funding and budget.",
-        "Taught replacements how to operate soundboard and audio technology.",
-        "Oversaw installation of two projectors and projector screens.",
+        "Managed Audio and Visual technology for the church services, and band performances",
+        "Installed several sound boards, kept technology and equipment up to date",
+        "Worked with church committee to ensure funding and budget",
+        "Taught replacements how to operate soundboard and audio technology",
+        "Oversaw installation of two projectors and projector screens",
         "Helped organize and ensure smooth operations during events and services"
       ]
     },
@@ -203,10 +203,9 @@
       "endDate": "2015-06-01",
       "highlights": [
         "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js",
-        "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js",
         "Developed SMARTBoard interface in HTML5 and CSS3 with Bootstrap and Google Maps Javascript API",
         "Built custom server-side software in Python and Node.js to facilitate communication between SMARTBoard and Unmanned Ground Vehicle",
-        "Collaborated with a short-range rocket development team to increase scope of radiation readings, communicating through a custom Python API."
+        "Collaborated with a short-range rocket development team to increase scope of radiation readings, communicating through a custom Python API"
       ]
     },
     {

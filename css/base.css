@@ -126,7 +126,6 @@ iframe{width:100%;frameborder:0;display:inline-block;}
         fill: none;
         stroke-miterlimit: 10;
         stroke-width: 3.7;
-
     }
 
 
@@ -195,7 +194,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 
 
     .divider-m  .zigzag.medium, .divider .zigzag.large{
-        stroke: #cd5353;
+        stroke: #3a3a3a;
         stroke-width: 4.3;
     }
 

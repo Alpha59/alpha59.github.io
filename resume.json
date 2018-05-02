@@ -153,11 +153,11 @@
     "endDate": "2013-09-01",
     "summary": "Worked to re-design and ....",
     "highlights": [
-        {"description": "Managed Audio and Visual technology for the church services, and band performances."},
-        {"description": "Installed several sound boards, kept technology and equipment up to date."},
-        {"description": "Worked with church committee to ensure funding and budget."},
-        {"description": "Taught replacements how to operate soundboard and audio technology."},
-        {"description": "Oversaw installation of two projectors and projector screens."},
+        {"description": "Managed Audio and Visual technology for the church services, and band performances"},
+        {"description": "Installed several sound boards, kept technology and equipment up to date"},
+        {"description": "Worked with church committee to ensure funding and budget"},
+        {"description": "Taught replacements how to operate soundboard and audio technology"},
+        {"description": "Oversaw installation of two projectors and projector screens"},
         {"description": "Helped organize and ensure smooth operations during events and services"}
     ]
   },{
@@ -202,14 +202,10 @@
     "startDate": "2014-09-01",
     "endDate": "2015-06-01",
     "highlights": [
-        {"description": "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js",
-            "additionalDescriptions": [
-                {"description": "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js"}
-            ]
-        },
+        {"description": "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js"},
         {"description": "Developed SMARTBoard interface in HTML5 and CSS3 with Bootstrap and Google Maps Javascript API"},
         {"description": "Built custom server-side software in Python and Node.js to facilitate communication between SMARTBoard and Unmanned Ground Vehicle"},
-        {"description": "Collaborated with a short-range rocket development team to increase scope of radiation readings, communicating through a custom Python API."}
+        {"description": "Collaborated with a short-range rocket development team to increase scope of radiation readings, communicating through a custom Python API"}
     ]
   },{
     "title": "Robotics Simulation",
