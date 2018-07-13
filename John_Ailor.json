@@ -40,18 +40,20 @@
       "endDate": "Present",
       "summary": "Description... Python",
       "highlights": [
+        "Architected and implemented a replacement for legacy promotion pricing system",
+        "Worked with several senior architects to design a system compatible with all existing promotions",
+        "Collaborated with business users to ensure that all current and future promotion scenarios are properly handled",
+        "Designed new regression and integration testing procedures to drive development and ensure compatibility with existing systems",
+        "Moved existing product browse and search services from third-party service to Elasticsearch",
+        "Collaborated with a small team of developers to build product search and browse endpoints in GoLang",
+        "Programmed in GoLang to create a queue ingestion service to continually populate Elasticsearch data",
+        "Used Python and Node.js to create data migration scripts from legacy system to new Elasticsearch service",
         "Worked with small team to build and launch a new brand website; now handles about 4 million monthly visitors",
         "Utilized Node.js and Hapi.js web-framework to interact with API services",
         "Harnessed the power of ES6 and functional programming (Ramda.js) to develop rich user interfaces",
         "Developed using stream-based events (most.js) to handle event based programming paradigms",
         "Used LESS-based CSS pre-compilation to style and format client-facing website",
         "Successfully launched website globally at beginning of April 2015",
-        "Worked with a team of developers to build a product management system to be used with multiple brands, collectively handling about 26 million monthly visitors",
-        "Worked with Oracle/Django/jQuery to build an interactive system to manage products for microservices architecture",
-        "Converted all ES5 code to ES6 and updated HTML templates for reuseability",
-        "Used Python services to migrate legacy product data to new system",
-        "Used SASS-based CSS pre-compilation to style and format internally facing website",
-        "Successfully launched new product management system to internal clients in August 2015, stayed with team for maintenance and feature improvement",
         "Re-imagined and rebuilt the e-commerce promotion and coupon management suite",
         "Coordinated with e-commerce merchandisers to develop requirements",
         "Designed import and export algorithms for various message consumers",
@@ -282,7 +284,8 @@
         "MySQL",
         "Neo4j",
         "PostgreSQL",
-        "Microsoft SQL Server"
+        "Microsoft SQL Server",
+        "Elasticsearch"
       ]
     },
     {

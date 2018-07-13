@@ -18,221 +18,375 @@
       "countryCode": "USA",
       "region": "Pennsylvania"
     },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "john-r-ailor",
-      "url": "http://www.linkedin.com/in/john-r-ailor/"
-    },{
-      "network": "Github",
-      "username": "alpha59",
-      "url": "http://github.com/alpha59"
-    }]
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "john-r-ailor",
+        "url": "http://www.linkedin.com/in/john-r-ailor/"
+      },
+      {
+        "network": "Github",
+        "username": "alpha59",
+        "url": "http://github.com/alpha59"
+      }
+    ]
   },
-  "work": [{
-    "company": "URBN Inc",
-    "position": "Engineer",
-    "website": "http://www.urbn.com/",
-    "startDate": "2015-08-20",
-    "endDate": "Present",
-    "summary": "Description... Python",
-    "highlights": [
-        {"description": "Worked with small team to build and launch a new brand website; now handles about 4 million monthly visitors",
-            "additionalDescriptions": [
-                {"description": "Utilized Node.js and Hapi.js web-framework to interact with API services"},
-                {"description": "Harnessed the power of ES6 and functional programming (Ramda.js) to develop rich user interfaces"},
-                {"description": "Developed using stream-based events (most.js) to handle event based programming paradigms"},
-                {"description": "Used LESS-based CSS pre-compilation to style and format client-facing website"},
-                {"description": "Successfully launched website globally at beginning of April 2015"}
-            ]
+  "work": [
+    {
+      "company": "URBN Inc",
+      "position": "Engineer",
+      "website": "http://www.urbn.com/",
+      "startDate": "2015-08-20",
+      "endDate": "Present",
+      "summary": "Description... Python",
+      "highlights": [
+        {
+          "description": "Architected and implemented a replacement for legacy promotion pricing system",
+          "additionalDescriptions":[
+            {
+              "description": "Worked with several senior architects to design a system compatible with all existing promotions"
+            },
+            {
+              "description": "Collaborated with business users to ensure that all current and future promotion scenarios are properly handled"
+            },
+            {
+              "description": "Designed new regression and integration testing procedures to drive development and ensure compatibility with existing systems"
+            }
+          ]
         },
-        {"description": "Worked with a team of developers to build a product management system to be used with multiple brands, collectively handling about 26 million monthly visitors",
-            "additionalDescriptions": [
-                {"description": "Worked with Oracle/Django/jQuery to build an interactive system to manage products for microservices architecture"},
-                {"description": "Converted all ES5 code to ES6 and updated HTML templates for reuseability"},
-                {"description": "Used Python services to migrate legacy product data to new system"},
-                {"description": "Used SASS-based CSS pre-compilation to style and format internally facing website"},
-                {"description": "Successfully launched new product management system to internal clients in August 2015, stayed with team for maintenance and feature improvement"}
-            ]
+        {
+          "description": "Moved existing product browse and search services from third-party service to Elasticsearch",
+          "additionalDescriptions":[
+            {
+              "description": "Collaborated with a small team of developers to build product search and browse endpoints in GoLang"
+            },
+            {
+              "description": "Programmed in GoLang to create a queue ingestion service to continually populate Elasticsearch data"
+            },
+            {
+              "description": "Used Python and Node.js to create data migration scripts from legacy system to new Elasticsearch service"
+            }
+          ]
         },
-        {"description": "Re-imagined and rebuilt the e-commerce promotion and coupon management suite",
-            "additionalDescriptions": [
-                {"description": "Coordinated with e-commerce merchandisers to develop requirements"},
-                {"description": "Designed import and export algorithms for various message consumers"},
-                {"description": "Prioritized and managed distribution of development resources to ensure timely project completion"}
-            ]
+        {
+          "description": "Worked with small team to build and launch a new brand website; now handles about 4 million monthly visitors",
+          "additionalDescriptions": [
+            {
+              "description": "Utilized Node.js and Hapi.js web-framework to interact with API services"
+            },
+            {
+              "description": "Harnessed the power of ES6 and functional programming (Ramda.js) to develop rich user interfaces"
+            },
+            {
+              "description": "Developed using stream-based events (most.js) to handle event based programming paradigms"
+            },
+            {
+              "description": "Used LESS-based CSS pre-compilation to style and format client-facing website"
+            },
+            {
+              "description": "Successfully launched website globally at beginning of April 2015"
+            }
+          ]
+        },
+        {
+          "description": "Re-imagined and rebuilt the e-commerce promotion and coupon management suite",
+          "additionalDescriptions": [
+            {
+              "description": "Coordinated with e-commerce merchandisers to develop requirements"
+            },
+            {
+              "description": "Designed import and export algorithms for various message consumers"
+            },
+            {
+              "description": "Prioritized and managed distribution of development resources to ensure timely project completion"
+            }
+          ]
         }
-    ]
-  },{
-    "company": "Philadelphia Game Lab",
-    "position": "Information Lead / CIO",
-    "website": "http://philadelphiagamelab.org/",
-    "startDate": "2014-01-14",
-    "endDate": "2015-08-13",
-    "summary": "Description... Python",
-    "highlights": [
-        {"description": "Worked to deploy and develop on AWS EC2 Linux and S3 instances",
-            "additionalDescriptions": [
-                {"description": "Completed numerous installs of C++, Node.js, php, Apache httpd, Mongo, and other software"},
-                {"description": "Developed HTTP scripts in C++, and php, as well as programs in C++, Python, and Node.js"},
-                {"description": "Enabled real-time requests for gaming and live applications in Node.js"}
-            ]
-        },
-        {"description": "Managed a team of eight programmers and a graphic artist through several projects"},
-        {"description": "Pitched my software architectures successfully to clients, investors, and technology partners"},
-        {"description": "Worked with CEO to manage day-to-day operations of company and personnel management, including hiring 20 new employees"},
-        {"description": "Oversaw design and execution of several client and in-house projects"},
-        {"description": "Worked with Unity, Unreal, and Oculus Rift for a temporary interactive installation"}
-    ]
-  },{
-    "company": "MyOhMy Design and Build",
-    "position": "Co-Founder / CIO / Lead Digital Modeler",
-    "startDate": "2009-09-01",
-    "endDate": "2015-06-15",
-    "summary": "Description... Python",
-    "highlights": [
-        {"description": "Innovated 3D modeling process, using CAD software, resulting in a sustained national commercial endeavor",
-            "additionalDescriptions": [
-                {"description": "Acquired 50+ nation wide clients specializing in off-campus student housing in 15 states"},
-                {"description": "Out bid multiple outsourced companies providing similar services in order to secure repeat business"}
-            ]
-        },
-        {"description": "Rendered 3D Models to create photo-realistic images for marketing purposes"},
-        {"description": "Collaborated with property managers/owners and on-site personnel to ensure model accuracy"},
-        {"description": "Expanded process to meet market needs and developed a staff to meet demand as business expanded",
-            "additionalDescriptions": [
-                {"description": "Developed numerous proprietary software packages to be used in modeling processes, including model mapping technologies in Ruby, C++, and Java"}
-            ]
-        },
-        {"description": "Migrated a ASP.NET MVC website from rackspace hosting server to an AWS EC2 instance for a non-profit organization"}
-    ]
-  },{
-    "company": "SAP America",
-    "position": "Global Customer Operations Co-Op",
-    "website": "https://www.sap.com",
-    "startDate": "2013-04-01",
-    "endDate": "2013-09-25",
-    "summary": "Description... Python",
-    "highlights": [
-        {"description": "Worked with a design team to build a cross-platform mobile theme in CSS and JavaScript, which was deployed to internal teams (SAPUI5)"},
-        {"description": "Coordinated with numerous departments to gather requirements and develop internal department pages (SAP Portal)"},
-        {"description": "Worked to build and update department-specific pages on the SAP internal social network (SAP JAM)"},
-        {"description": "Trained business users in the use of HTML for the basic purpose of intranet editing in order to ensure continued maintenance of system content"}
-    ]
-  },{
-    "company": "National Board of Medical Examiners",
-    "position": "Internet Services Co-Op",
-    "website": "http://www.nbme.org/",
-    "startDate": "2012-04-01",
-    "endDate": "2012-09-25",
-    "summary": "Description... Python",
-    "highlights": [
-        {"description": "Maintained multiple external and internal applications"},
-        {"description": "Integrated updated intranet with existing version in order to ensure compatibility with Microsoft SharePoint"},
-        {"description": "Designed and organized layout of new and existing web pages built on ASP.NET VB and Microsoft SharePoint"},
-        {"description": "Worked to modernize CSS and JavaScript on existing applications"}
-    ]
-  },{
-    "company": "Campus Apartments",
-    "position": "Web Technologies Associate",
-    "website": "http://www.nbme.org/",
-    "startDate": "2009-10-01",
-    "endDate": "2012-04-01",
-    "summary": "Description... Python",
-    "highlights": [
-        {"description": "Converted Database-centric proprietary Rental Management System and Tenant portal from ASP.net 1.1 to 4.0 utilizing code behind and Master Pages in VB and C++"},
-        {"description": "Simultaneously updated database from SQL Server 2000 to SQL Server 2008, standardized table and stored procedure naming conventions"},
-        {"description": "Photographed buildings and edited images in Photoshop in order to further renters` interest"},
-        {"description": "Helped introduce semi-agile workflow with focus on pair programming using VisualSVN for Visual Studio"}
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Saint Luke Lutheran Church",
-    "position": "Volunteer Sound Engineer",
-    "website": "http://saintlukedevon.org",
-    "startDate": "2008-05-01",
-    "endDate": "2013-09-01",
-    "summary": "Worked to re-design and ....",
-    "highlights": [
-        {"description": "Managed Audio and Visual technology for the church services, and band performances"},
-        {"description": "Installed several sound boards, kept technology and equipment up to date"},
-        {"description": "Worked with church committee to ensure funding and budget"},
-        {"description": "Taught replacements how to operate soundboard and audio technology"},
-        {"description": "Oversaw installation of two projectors and projector screens"},
-        {"description": "Helped organize and ensure smooth operations during events and services"}
-    ]
-  },{
-    "organization": "National Organization for Business and Engineering",
-    "position": "National Technology Chair",
-    "website": "https://www.nobenational.org/",
-    "startDate": "2012-09-01",
-    "endDate": "2013-09-01"
-  },{
-    "organization": "Drexel Univerisity Math Student Organization",
-    "position": "Website Management Chair",
-    "website": "http://www.pages.drexel.edu/~dsomso/",
-    "startDate": "2012-09-01",
-    "endDate": "2013-09-01"
-  },{
-    "organization": "National Organization for Business and Engineering at Drexel",
-    "position": "Technology Development Chair",
-    "website": "https://www.nobedrexel.org/",
-    "startDate": "2011-09-01",
-    "endDate": "2012-09-01"
-  }],
-  "education": [{
-    "institution": "Drexel University",
-    "area": "Computer Engineering",
-    "location": {
-        "city": "Philadelphia PA"
+      ]
     },
-    "studyType": "Bachelor of Science",
-    "startDate": "2010-09-20",
-    "endDate": "2015-06-15",
-    "gpa": "4.0",
-    "courses": [],
-    "highlights": [
-        {"description": "Major in Computer Engineering"},
-        {"description": "Minor in Electrical Engineering"},
-        {"description": "Minor in Business Administration"}
-    ]
-  }],
-  "project": [{
-    "title": "Unmanned Ground Vehicle",
-    "subtitle": "SMARTBoard Controlled Ground Vehicle for Radiation Detection",
-    "startDate": "2014-09-01",
-    "endDate": "2015-06-01",
-    "highlights": [
-        {"description": "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js"},
-        {"description": "Developed SMARTBoard interface in HTML5 and CSS3 with Bootstrap and Google Maps Javascript API"},
-        {"description": "Built custom server-side software in Python and Node.js to facilitate communication between SMARTBoard and Unmanned Ground Vehicle"},
-        {"description": "Collaborated with a short-range rocket development team to increase scope of radiation readings, communicating through a custom Python API"}
-    ]
-  },{
-    "title": "Robotics Simulation",
-    "subtitle": "Microsoft Visual Simulation Environment",
-    "startDate": "2013-09-01",
-    "endDate": "2013-12-01",
-    "highlights": [
-        {"description": "Used MS Visual Simulation Environment to simulate over 100 differential drive robotic entities"},
-        {"description": "Worked with C\\# and MVSE API to communicate with simulated robots via Microsoft CCR"},
-        {"description": "Generated 3D map environment from static images for simulated robots to interact with other simulated robots"}
-    ]
-  },{
-    "title": "Java Simulation",
-    "subtitle": "Disease Spread Through Simulated Urban Environment",
-    "startDate": "2012-09-01",
-    "endDate": "2012-12-01",
-    "highlights": [
-        {"description": "Researched disease characteristics and statistics in order to create an accurate representation of the environment"},
-        {"description": "Used Object-Oriented programming to implement companies, families, schools, people, and public transportation"},
-        {"description": "Monitored the spread of disease starting with patient zero parameters by using a variety of data structures"},
-        {"description": "Analyzed results using Excel and Excel VB Macros by comparing generated data to real-world disease spread data, as well as existing models"}
-    ]
-  }],
-  "skills": [{
-    "name": "Languages",
-    "level": "Master",
-    "keywords": [
+    {
+      "company": "Philadelphia Game Lab",
+      "position": "Information Lead / CIO",
+      "website": "http://philadelphiagamelab.org/",
+      "startDate": "2014-01-14",
+      "endDate": "2015-08-13",
+      "summary": "Description... Python",
+      "highlights": [
+        {
+          "description": "Worked to deploy and develop on AWS EC2 Linux and S3 instances",
+          "additionalDescriptions": [
+            {
+              "description": "Completed numerous installs of C++, Node.js, php, Apache httpd, Mongo, and other software"
+            },
+            {
+              "description": "Developed HTTP scripts in C++, and php, as well as programs in C++, Python, and Node.js"
+            },
+            {
+              "description": "Enabled real-time requests for gaming and live applications in Node.js"
+            }
+          ]
+        },
+        {
+          "description": "Managed a team of eight programmers and a graphic artist through several projects"
+        },
+        {
+          "description": "Pitched my software architectures successfully to clients, investors, and technology partners"
+        },
+        {
+          "description": "Worked with CEO to manage day-to-day operations of company and personnel management, including hiring 20 new employees"
+        },
+        {
+          "description": "Oversaw design and execution of several client and in-house projects"
+        },
+        {
+          "description": "Worked with Unity, Unreal, and Oculus Rift for a temporary interactive installation"
+        }
+      ]
+    },
+    {
+      "company": "MyOhMy Design and Build",
+      "position": "Co-Founder / CIO / Lead Digital Modeler",
+      "startDate": "2009-09-01",
+      "endDate": "2015-06-15",
+      "summary": "Description... Python",
+      "highlights": [
+        {
+          "description": "Innovated 3D modeling process, using CAD software, resulting in a sustained national commercial endeavor",
+          "additionalDescriptions": [
+            {
+              "description": "Acquired 50+ nation wide clients specializing in off-campus student housing in 15 states"
+            },
+            {
+              "description": "Out bid multiple outsourced companies providing similar services in order to secure repeat business"
+            }
+          ]
+        },
+        {
+          "description": "Rendered 3D Models to create photo-realistic images for marketing purposes"
+        },
+        {
+          "description": "Collaborated with property managers/owners and on-site personnel to ensure model accuracy"
+        },
+        {
+          "description": "Expanded process to meet market needs and developed a staff to meet demand as business expanded",
+          "additionalDescriptions": [
+            {
+              "description": "Developed numerous proprietary software packages to be used in modeling processes, including model mapping technologies in Ruby, C++, and Java"
+            }
+          ]
+        },
+        {
+          "description": "Migrated a ASP.NET MVC website from rackspace hosting server to an AWS EC2 instance for a non-profit organization"
+        }
+      ]
+    },
+    {
+      "company": "SAP America",
+      "position": "Global Customer Operations Co-Op",
+      "website": "https://www.sap.com",
+      "startDate": "2013-04-01",
+      "endDate": "2013-09-25",
+      "summary": "Description... Python",
+      "highlights": [
+        {
+          "description": "Worked with a design team to build a cross-platform mobile theme in CSS and JavaScript, which was deployed to internal teams (SAPUI5)"
+        },
+        {
+          "description": "Coordinated with numerous departments to gather requirements and develop internal department pages (SAP Portal)"
+        },
+        {
+          "description": "Worked to build and update department-specific pages on the SAP internal social network (SAP JAM)"
+        },
+        {
+          "description": "Trained business users in the use of HTML for the basic purpose of intranet editing in order to ensure continued maintenance of system content"
+        }
+      ]
+    },
+    {
+      "company": "National Board of Medical Examiners",
+      "position": "Internet Services Co-Op",
+      "website": "http://www.nbme.org/",
+      "startDate": "2012-04-01",
+      "endDate": "2012-09-25",
+      "summary": "Description... Python",
+      "highlights": [
+        {
+          "description": "Maintained multiple external and internal applications"
+        },
+        {
+          "description": "Integrated updated intranet with existing version in order to ensure compatibility with Microsoft SharePoint"
+        },
+        {
+          "description": "Designed and organized layout of new and existing web pages built on ASP.NET VB and Microsoft SharePoint"
+        },
+        {
+          "description": "Worked to modernize CSS and JavaScript on existing applications"
+        }
+      ]
+    },
+    {
+      "company": "Campus Apartments",
+      "position": "Web Technologies Associate",
+      "website": "http://www.nbme.org/",
+      "startDate": "2009-10-01",
+      "endDate": "2012-04-01",
+      "summary": "Description... Python",
+      "highlights": [
+        {
+          "description": "Converted Database-centric proprietary Rental Management System and Tenant portal from ASP.net 1.1 to 4.0 utilizing code behind and Master Pages in VB and C++"
+        },
+        {
+          "description": "Simultaneously updated database from SQL Server 2000 to SQL Server 2008, standardized table and stored procedure naming conventions"
+        },
+        {
+          "description": "Photographed buildings and edited images in Photoshop in order to further renters` interest"
+        },
+        {
+          "description": "Helped introduce semi-agile workflow with focus on pair programming using VisualSVN for Visual Studio"
+        }
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Saint Luke Lutheran Church",
+      "position": "Volunteer Sound Engineer",
+      "website": "http://saintlukedevon.org",
+      "startDate": "2008-05-01",
+      "endDate": "2013-09-01",
+      "summary": "Worked to re-design and ....",
+      "highlights": [
+        {
+          "description": "Managed Audio and Visual technology for the church services, and band performances"
+        },
+        {
+          "description": "Installed several sound boards, kept technology and equipment up to date"
+        },
+        {
+          "description": "Worked with church committee to ensure funding and budget"
+        },
+        {
+          "description": "Taught replacements how to operate soundboard and audio technology"
+        },
+        {
+          "description": "Oversaw installation of two projectors and projector screens"
+        },
+        {
+          "description": "Helped organize and ensure smooth operations during events and services"
+        }
+      ]
+    },
+    {
+      "organization": "National Organization for Business and Engineering",
+      "position": "National Technology Chair",
+      "website": "https://www.nobenational.org/",
+      "startDate": "2012-09-01",
+      "endDate": "2013-09-01"
+    },
+    {
+      "organization": "Drexel Univerisity Math Student Organization",
+      "position": "Website Management Chair",
+      "website": "http://www.pages.drexel.edu/~dsomso/",
+      "startDate": "2012-09-01",
+      "endDate": "2013-09-01"
+    },
+    {
+      "organization": "National Organization for Business and Engineering at Drexel",
+      "position": "Technology Development Chair",
+      "website": "https://www.nobedrexel.org/",
+      "startDate": "2011-09-01",
+      "endDate": "2012-09-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Drexel University",
+      "area": "Computer Engineering",
+      "location": {
+        "city": "Philadelphia PA"
+      },
+      "studyType": "Bachelor of Science",
+      "startDate": "2010-09-20",
+      "endDate": "2015-06-15",
+      "gpa": "4.0",
+      "courses": [],
+      "highlights": [
+        {
+          "description": "Major in Computer Engineering"
+        },
+        {
+          "description": "Minor in Electrical Engineering"
+        },
+        {
+          "description": "Minor in Business Administration"
+        }
+      ]
+    }
+  ],
+  "project": [
+    {
+      "title": "Unmanned Ground Vehicle",
+      "subtitle": "SMARTBoard Controlled Ground Vehicle for Radiation Detection",
+      "startDate": "2014-09-01",
+      "endDate": "2015-06-01",
+      "highlights": [
+        {
+          "description": "Developed a Ground Vehicle on top of Raspberry Pi and Arduino with attached sensors using C++, Python, and Node.js"
+        },
+        {
+          "description": "Developed SMARTBoard interface in HTML5 and CSS3 with Bootstrap and Google Maps Javascript API"
+        },
+        {
+          "description": "Built custom server-side software in Python and Node.js to facilitate communication between SMARTBoard and Unmanned Ground Vehicle"
+        },
+        {
+          "description": "Collaborated with a short-range rocket development team to increase scope of radiation readings, communicating through a custom Python API"
+        }
+      ]
+    },
+    {
+      "title": "Robotics Simulation",
+      "subtitle": "Microsoft Visual Simulation Environment",
+      "startDate": "2013-09-01",
+      "endDate": "2013-12-01",
+      "highlights": [
+        {
+          "description": "Used MS Visual Simulation Environment to simulate over 100 differential drive robotic entities"
+        },
+        {
+          "description": "Worked with C\\# and MVSE API to communicate with simulated robots via Microsoft CCR"
+        },
+        {
+          "description": "Generated 3D map environment from static images for simulated robots to interact with other simulated robots"
+        }
+      ]
+    },
+    {
+      "title": "Java Simulation",
+      "subtitle": "Disease Spread Through Simulated Urban Environment",
+      "startDate": "2012-09-01",
+      "endDate": "2012-12-01",
+      "highlights": [
+        {
+          "description": "Researched disease characteristics and statistics in order to create an accurate representation of the environment"
+        },
+        {
+          "description": "Used Object-Oriented programming to implement companies, families, schools, people, and public transportation"
+        },
+        {
+          "description": "Monitored the spread of disease starting with patient zero parameters by using a variety of data structures"
+        },
+        {
+          "description": "Analyzed results using Excel and Excel VB Macros by comparing generated data to real-world disease spread data, as well as existing models"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": [
         "C++",
         "Python",
         "php",
@@ -247,11 +401,12 @@
         "Lisp",
         "Octave",
         "VHDL"
-    ]
-  },{
-    "name": "Software/Applications",
-    "level": "Master",
-    "keywords": [
+      ]
+    },
+    {
+      "name": "Software/Applications",
+      "level": "Master",
+      "keywords": [
         "MS Visual Studio",
         "Git",
         "Netbeans",
@@ -267,40 +422,47 @@
         "Eclipse",
         "Unity",
         "Unreal"
-    ]
-  },{
-    "name": "Databases",
-    "level": "Master",
-    "keywords": [
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
         "Mongodb",
         "MySQL",
         "Neo4j",
         "PostgreSQL",
-        "Microsoft SQL Server"
-    ]
-  },{
-    "name": "Markup/Style",
-    "level": "Master",
-    "keywords": [
-       "Multi-Markdown",
+        "Microsoft SQL Server",
+        "Elasticsearch"
+      ]
+    },
+    {
+      "name": "Markup/Style",
+      "level": "Master",
+      "keywords": [
+        "Multi-Markdown",
         "HTML5",
         "LaTeX",
         "CSS3",
         "Bootstrap",
         "Sass",
         "LESS"
-    ]
-  },{
-    "name": "Integration Testing",
-    "level": "Master",
-    "keywords": [
+      ]
+    },
+    {
+      "name": "Integration Testing",
+      "level": "Master",
+      "keywords": [
         "Selenium",
         "nightwatch.js",
         "webdriver.io"
-    ]
-  }],
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }]
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native speaker"
+    }
+  ]
 }
