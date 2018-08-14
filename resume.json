@@ -34,17 +34,18 @@
   "work": [
     {
       "company": "URBN Inc",
-      "position": "Engineer",
+      "position": "Internal Services Engineer",
       "website": "http://www.urbn.com/",
-      "startDate": "2015-08-20",
+      "startDate": "2016-06-01",
       "endDate": "Present",
-      "summary": "Description... Python",
+      "summary": "",
       "highlights": [
+        {"description": "Principal front-end engineer and back-end developer for internal services and business tools team"},
         {
-          "description": "Architected and implemented a replacement for legacy promotion pricing system",
+          "description": "Architected and implemented a replacement for legacy promotion pricing system (Oracle ATG) utilizing Python and Mongodb",
           "additionalDescriptions":[
             {
-              "description": "Worked with several senior architects to design a system compatible with all existing promotions"
+              "description": "Worked with several senior architects to design a system based on factory patterns compatible with all existing promotions"
             },
             {
               "description": "Collaborated with business users to ensure that all current and future promotion scenarios are properly handled"
@@ -55,7 +56,7 @@
           ]
         },
         {
-          "description": "Moved existing product browse and search services from third-party service to Elasticsearch",
+          "description": "Moved existing product browse and search services from third-party service to in-house Elasticsearch service",
           "additionalDescriptions":[
             {
               "description": "Collaborated with a small team of developers to build product search and browse endpoints in GoLang"
@@ -69,13 +70,53 @@
           ]
         },
         {
+          "description": "Developed a Django based catalog management tool for internal website merchandising and web production",
+          "additionalDescriptions": [
+            {
+              "description": "Built on an Oracle DB backend using Django ORM and view management and custom SQL procedures"
+            },
+            {
+              "description": "Designed and implemented extensive interactive user interface in jQuery and Sass to meet the needs of brand users"
+            },
+            {
+              "description": "Integrated with external catalog management tool intended to facilitate the sale of third-party products"
+            },
+            {
+              "description": "Ensured consistent automated integration tests using Selenium, and webdriver.io"
+            }
+          ]
+        },
+        {
+          "description": "Re-imagined and rebuilt the e-commerce promotion and coupon management suite with interactive JavaScript UI",
+          "additionalDescriptions": [
+            {
+              "description": "Coordinated with e-commerce merchandisers to develop requirements and simplify promotion creation procedures"
+            },
+            {
+              "description": "Designed import and export algorithms for various AWS SQS message consumers"
+            },
+            {
+              "description": "Prioritized and managed distribution of development resources to ensure timely project completion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Free People",
+      "position": "Node.js Engineer",
+      "website": "http://www.freepeople.com/",
+      "startDate": "2015-08-20",
+      "endDate": "2016-06-01",
+      "summary": "Worked on internal business tools team, in conjunction with both backend microservices teams, and front-end web teams",
+      "highlights": [{
           "description": "Worked with small team to build and launch a new brand website; now handles about 4 million monthly visitors",
           "additionalDescriptions": [
             {
-              "description": "Utilized Node.js and Hapi.js web-framework to interact with API services"
+              "description": "Utilized Node.js and Hapi.js web-framework to interact with API services from Node.js"
             },
             {
-              "description": "Harnessed the power of ES6 and functional programming (Ramda.js) to develop rich user interfaces"
+              "description": "Harnessed the power of JavaScript ES6 and functional programming (Ramda.js) to develop rich user interfaces"
             },
             {
               "description": "Developed using stream-based events (most.js) to handle event based programming paradigms"
@@ -87,22 +128,7 @@
               "description": "Successfully launched website globally at beginning of April 2015"
             }
           ]
-        },
-        {
-          "description": "Re-imagined and rebuilt the e-commerce promotion and coupon management suite",
-          "additionalDescriptions": [
-            {
-              "description": "Coordinated with e-commerce merchandisers to develop requirements"
-            },
-            {
-              "description": "Designed import and export algorithms for various message consumers"
-            },
-            {
-              "description": "Prioritized and managed distribution of development resources to ensure timely project completion"
-            }
-          ]
-        }
-      ]
+        }]
     },
     {
       "company": "Philadelphia Game Lab",
@@ -113,13 +139,22 @@
       "summary": "Description... Python",
       "highlights": [
         {
-          "description": "Worked to deploy and develop on AWS EC2 Linux and S3 instances",
+          "description": "Worked with CEO to manage day-to-day operations of company and personnel management, including hiring 20 new employees"
+        },
+        {
+          "description": "Managed a team of eight programmers and a graphic artist through several internal and client projects"
+        },
+        {
+          "description": "Pitched my software architectures successfully to clients, investors, and technology partners"
+        },
+        {
+          "description": "Worked to deploy and develop various projects on both AWS EC2 Linux and S3 instances",
           "additionalDescriptions": [
             {
-              "description": "Completed numerous installs of C++, Node.js, php, Apache httpd, Mongo, and other software"
+              "description": "Completed numerous installs of C++, Node.js, php, Apache httpd, Mongo, and other software on AWS EC3 instances"
             },
             {
-              "description": "Developed HTTP scripts in C++, and php, as well as programs in C++, Python, and Node.js"
+              "description": "Developed HTTP scripts in C/C++, and php, as well as programs in Python, Java, and Node.js"
             },
             {
               "description": "Enabled real-time requests for gaming and live applications in Node.js"
@@ -127,19 +162,10 @@
           ]
         },
         {
-          "description": "Managed a team of eight programmers and a graphic artist through several projects"
+          "description": "Worked with Unity, Unreal, Arduino, and Oculus Rift for a temporary interactive installation"
         },
         {
-          "description": "Pitched my software architectures successfully to clients, investors, and technology partners"
-        },
-        {
-          "description": "Worked with CEO to manage day-to-day operations of company and personnel management, including hiring 20 new employees"
-        },
-        {
-          "description": "Oversaw design and execution of several client and in-house projects"
-        },
-        {
-          "description": "Worked with Unity, Unreal, and Oculus Rift for a temporary interactive installation"
+          "description": "Analyzed client data sources using scripts written in Awk, Perl, Lisp, and Node.js"
         }
       ]
     },
@@ -162,7 +188,7 @@
           ]
         },
         {
-          "description": "Rendered 3D Models to create photo-realistic images for marketing purposes"
+          "description": "Rendered 3D Models to create photo-realistic images for marketing purposes using custom built rendering farm on cloud architecture"
         },
         {
           "description": "Collaborated with property managers/owners and on-site personnel to ensure model accuracy"
@@ -211,7 +237,7 @@
       "summary": "Description... Python",
       "highlights": [
         {
-          "description": "Maintained multiple external and internal applications"
+          "description": "Maintained multiple external and internal web applications with a small team of developers"
         },
         {
           "description": "Integrated updated intranet with existing version in order to ensure compatibility with Microsoft SharePoint"
@@ -220,7 +246,7 @@
           "description": "Designed and organized layout of new and existing web pages built on ASP.NET VB and Microsoft SharePoint"
         },
         {
-          "description": "Worked to modernize CSS and JavaScript on existing applications"
+          "description": "Worked to modernize CSS and JavaScript of existing applications"
         }
       ]
     },
@@ -391,7 +417,8 @@
         "Python",
         "php",
         "Java",
-        "JavaScript (ES5/ES6, node.js)",
+        "JavaScript",
+        "Node.js",
         "Ruby",
         "C#",
         "ASP.NET MVC",
@@ -400,7 +427,10 @@
         "Awk",
         "Lisp",
         "Octave",
-        "VHDL"
+        "VHDL",
+        "SQL",
+        "perl",
+        "Swift"
       ]
     },
     {
