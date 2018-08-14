@@ -677,3 +677,11 @@
       \letterenclosurestyle{\@letterenclname:  \@letterenclosure} \\
     }
 }
+
+\renewcommand*{\date}[1]{\def\@date{#1}}\date{\today}
+\newcommand*{\opening}[1]{\def\@opening{#1}}
+\newcommand*{\closing}[1]{\def\@closing{#1}}
+\newcommand*{\enclosure}[2][]{%
+  % if an optional argument is provided, use it to redefine \enclname
+  \ifthenelse{\equal{#1}{}}{}{\renewcommand*{\enclname}{#1}}%
+  \def\@enclosure{#2}}

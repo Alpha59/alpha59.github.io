@@ -239,6 +239,16 @@
 % defines additional personal information (optional)
 % usage: \extrainfo{<text>}
 \newcommand*{\extrainfo}[1]{\def\@extrainfo{#1}}
+% Defines writer's github (optional)
+% Usage: \github{<github-nick>}
+\newcommand*{\github}[1]{\def\@github{#1}}
+
+% Defines writer's linked-in (optional)
+% Usage: \linkedin{<linked-in-nick>}
+\newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
+
+
+
 
 % colors
 \definecolor{color0}{rgb}{0,0,0}% main default color, normally left to black
@@ -281,7 +291,7 @@
 % usage: \moderncvstyle{<style variant name>}
 \newcommand*{\moderncvstyle}[1]{
   \RequirePackage{moderncvstyle#1}}
-  
+
 % loads a color scheme
 % usage: \moderncvcolor{<color scheme name>}
 \newcommand*{\moderncvcolor}[1]{

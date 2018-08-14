@@ -44,13 +44,6 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     3rd party packages
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Needed to divide into several files
-\usepackage{import}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Essentials
@@ -65,26 +58,55 @@
 %%% Optionals
 \position{<! basics.label !>{\enskip\cdotp\enskip}<! basics.sublabel !>}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Content
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
-\makecvfooter
-  {\today}
-  {<! basics.name !>~~~·~~~Résumé}
-  {\thepage}
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {\hspace{1cm}}
+  {\hspace{1cm}}
 
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Software Engineer}
+% How the letter is opened
+\letteropening{To Whom it May Concern,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
 \begin{document}
-%%% Make a header for CV with personal data
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
 
-%%% Import contents
-\import{\sectiondir}{experience.tex}
-\import{\sectiondir}{education.tex}
-%\import{\sectiondir}{project.tex}
-%\import{\sectiondir}{extracurricular.tex}
-%\import{\sectiondir}{presentation.tex}
-%\import{\sectiondir}{writing.tex}
-%\import{\sectiondir}{committees.tex}
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Claud D. Park~~~·~~~Cover Letter}
+  {ass}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+<! basics.summary !>
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
 
 \end{document}
