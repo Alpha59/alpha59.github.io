@@ -41,6 +41,7 @@
       "summary": "",
       "highlights": [
         {"description": "Principal front-end engineer and back-end developer for internal services and business tools team"},
+        {"description": "Designed and built a custom GraphQL layer for existing microservices to reduce network calls in Web Application"},
         {
           "description": "Architected and implemented a replacement for legacy promotion pricing system (Oracle ATG) utilizing Python and Mongodb",
           "additionalDescriptions":[
