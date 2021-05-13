@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{<! basics.fname !>}{<! basics.mname !>}{<! basics.lname !>}
+\address{<! basics.location.city !>, <! basics.location.region !>}
+\mobile{<! basics.phone !>}
+%%% Social
+\email{<! basics.email !>}
+\homepage{<! basics.website !>}
+\github{<! basics.profiles[0].username !>}{<! basics.profiles[0].url !>}
+\linkedin{<! basics.profiles[1].username !>}{<! basics.profiles[1].url !>}
+%%% Optionals
+\position{<! basics.label !> <$ if basics.sublabel $>{\enskip\cdotp\enskip}<$ endif $><! basics.sublabel !>}
+
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {<! basics.name !>~~~·~~~Résumé}
+  {\thepage}

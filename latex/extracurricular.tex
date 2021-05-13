@@ -10,11 +10,15 @@
         %<$ if org.highlights $>
           \begin{cvitems}
             %<$ for highlight in org.highlights $>
-                \item{<! highlight.description !>}
+                %<$ if highlight.description $>
+                    \item{<! highlight.description !>}
+                %<$ else $>
+                    \item{<! highlight !>}
+                %<$ endif $>
                 %<$ if highlight.additionalDescriptions $>
                     \begin{cvitemssub}
                     %<$ for ad in highlight.additionalDescriptions $>
-                        \item{<! ad.description !>}
+                        \item{<! ad !>}
                     %<$ endfor $>
                     \end{cvitemssub}
                 %<$ endif $>

@@ -31,7 +31,7 @@
                                         <div class="col-md-6">
                                             <ul class="info-list clearfix">
 	            <li><span class="inf">Name </span>  <span class="value">{{ basics.name }}</span></li>
-	            <li><span class="inf">LinkedIn</span>  <span class="value"><a href="{{basics.profiles[0].url}}">{{ basics.profiles[0].username }}</a></span></li>
+	            <li><span class="inf">LinkedIn</span>  <span class="value"><a href="{{basics.profiles[1].url}}">{{ basics.profiles[1].username }}</a></span></li>
                                             </ul>
                                         </div>
                                         <div class="col-md-6">
@@ -82,11 +82,17 @@
 	                    {% if job.highlights %}
 	                        <ul>
 	                            {% for highlight in job.highlights %}
-	                                <li>{{highlight.description}}</li>
+	                                <li>
+	                                {% if highlight.description %}
+		{{highlight.description}}
+	                                {% else %}
+		{{highlight}}
+	                                {% endif %}
+	                                </li>
 	                                {% if highlight.additionalDescriptions %}
 		<ul>
 		    {% for ad in highlight.additionalDescriptions %}
-		        <li>{{ad.description}}</li>
+		        <li>{{ad}}</li>
 		    {% endfor %}
 		</ul>
 	                                {% endif %}
@@ -144,11 +150,17 @@
 	                            {% if ed.highlights %}
 	                                <ul>
 		{% for highlight in ed.highlights %}
-		    <li>{{highlight.description}}</li>
+		    <li>
+		    {% if highlight.description %}
+		        {{highlight.description}}
+		    {% else %}
+		        {{highlight}}
+		    {% endif %}
+		    </li>
 		    {% if highlight.additionalDescriptions %}
 		        <ul>
 		            {% for ad in highlight.additionalDescriptions %}
-		                <li>{{ad.description}}</li>
+		                <li>{{ad}}</li>
 		            {% endfor %}
 		        </ul>
 		    {% endif %}

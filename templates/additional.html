@@ -35,11 +35,17 @@
 	                    {% if proj.highlights %}
 	                        <ul>
 	                            {% for highlight in proj.highlights %}
-	                                <li>{{highlight.description}}</li>
+	                                <li>
+	                                {% if highlight.description %}
+		{{highlight.description}}
+	                                {% else %}
+		{{highlight}}
+	                                {% endif %}
+	                                </li>
 	                                {% if highlight.additionalDescriptions %}
 		<ul>
 		    {% for ad in highlight.additionalDescriptions %}
-		        <li>{{ad.description}}</li>
+		        <li>{{ad}}</li>
 		    {% endfor %}
 		</ul>
 	                                {% endif %}
@@ -98,11 +104,17 @@
 	                            {% if activ.highlights %}
 	                                <ul>
 		{% for highlight in activ.highlights %}
-		    <li>{{highlight.description}}</li>
+		    <li>
+		    {% if highlight.description %}
+		        {{highlight.description}}
+		    {% else %}
+		        {{highlight}}
+		    {% endif %}
+		    </li>
 		    {% if highlight.additionalDescriptions %}
 		        <ul>
 		            {% for ad in highlight.additionalDescriptions %}
-		                <li>{{ad.description}}</li>
+		                <li>{{ad}}</li>
 		            {% endfor %}
 		        </ul>
 		    {% endif %}

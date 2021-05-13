@@ -18,13 +18,7 @@
 %     Configuration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Themes: Awesome-CV
-\documentclass[11pt, a4paper]{awesome-cv}
-
-%%% Override a directory location for fonts(default: 'fonts/')
-\fontdir[fonts/]
-
-%%% Configure a directory location for sections
-\newcommand*{\sectiondir}{resume/}
+\documentclass[11pt, a4paper]{awesomecv}
 
 %%% Override color
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
@@ -43,38 +37,12 @@
 %\headersocialsep[\quad\textbar\quad]
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     3rd party packages
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Needed to divide into several files
-\usepackage{import}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Personal Data
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Essentials
-\name{<! basics.fname !>}{<! basics.lname !>}
-\address{<! basics.location.address !>, <! basics.location.city !>, <! basics.location.postalCode !>}
-\mobile{<! basics.phone !>}
-%%% Social
-\email{<! basics.email !>}
-\homepage{<! basics.website !>}
-\github{<! basics.github !>}
-\linkedin{<! basics.profiles[0].username !>}
-%%% Optionals
-\position{<! basics.label !>{\enskip\cdotp\enskip}<! basics.sublabel !>}
-
+\begin{document}
+<$ include 'basics.tex' $>
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
-\makecvfooter
-  {\today}
-  {<! basics.name !>~~~·~~~Résumé}
-  {\thepage}
 
-\begin{document}
 %%% Make a header for CV with personal data
 \makecvheader
 
@@ -83,8 +51,5 @@
 <$ include 'education.tex' $>
 %< $ include 'project.tex' $ >
 %< $ include 'extracurricular.tex' $ >
-%< $ include 'presentation.tex' $ >
-%< $ include 'writing.tex' $ >
-%< $ include 'committees.tex' $ >
 
 \end{document}

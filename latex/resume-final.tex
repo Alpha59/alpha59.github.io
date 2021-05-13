@@ -1,0 +1,662 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesomecv}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-concrete}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{John}{R.}{Ailor}
+\address{Seattle, Washington}
+\mobile{1-484-354-9199}
+%%% Social
+\email{ailor.john.r@gmail.com}
+\homepage{alpha59.github.io}
+\github{alpha59}{https://github.com/alpha59}
+\linkedin{John R. Ailor}{https://www.linkedin.com/in/john-r-ailor/}
+%%% Optionals
+\position{Software Development Manager }
+
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {John R. Ailor~~~·~~~Résumé}
+  {\thepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Make a header for CV with personal data
+\makecvheader
+
+%%% Import contents
+\cvsection{Experience}
+\begin{cventries}
+ 
+  \cventry
+    {Software Development Engineer}
+    {Amazon Inc}
+    {}
+    {2019-01 / }
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Rebuilt internal portals into React from outdated Front-end technology stack, replacing the angular stack with a revised React Framework}
+                %
+                %
+            %
+                %
+                    \item{Re-used existing back-end services, modified to include new search and pagination functionality optimized for SQL}
+                %
+                %
+            %
+                %
+                    \item{Managed project work including resource management across team members to ensure deadlines and milestones were met}
+                %
+                %
+            %
+                %
+                    \item{Worked with multiple business partners to collect requirements and ensure that all requirements were fulfilled}
+                %
+                %
+            %
+                %
+                    \item{Designed and managed a cross team collaboration for a new reverse logistics processes that spread across multiple existing domains}
+                %
+                %
+            %
+                %
+                    \item{Online Integrated Device returns with third party Retailer Device Returns, condensing the number of operational lines in the return center by 30 percent}
+                %
+                %
+            %
+                %
+                    \item{Expanded software to include third party devices in the same reverse logistics space, improving non-Amazon device returns}
+                %
+                %
+            %
+                %
+                    \item{Worked with operational partners to re-design outbound transportation routing rule engine}
+                %
+                %
+            %
+                %
+                    \item{Oversaw on the release of new product initiatives for internal products reverse logistics}
+                %
+                %
+            %
+                %
+                    \item{Managed product launches in each of the available reverse logistic regions}
+                %
+                %
+            %
+                %
+                    \item{Launched a new region to accommodate the release of major new product initiatives, and expected increase in returns}
+                %
+                %
+            %
+                %
+                    \item{Pushed Team\textquotesingle s Operational Excellence forward with new upgraded technology stack proposals}
+                %
+                %
+                    \begin{cvitemssub}
+                    %
+                        \item{Moved technology stack to a cloud architecture with no more on-site servers}
+                    %
+                        \item{Migrated entire stack to server-less technology to ensure scalability across all regions}
+                    %
+                        \item{Migrated entire stack to infrastructure as code, reducing the technology burden of adding a new region from two months down to three days}
+                    %
+                    \end{cvitemssub}
+                %
+            %
+                %
+                    \item{Re-imagined teams agile process to include new procedures to help guarantee success}
+                %
+                %
+            %
+                %
+                    \item{Implemented new story and ticket procedures that focused on quality and traceability, including a grading rubric and new templates}
+                %
+                %
+            %
+                %
+                    \item{Reviewed and provided feedback on every story and ticket before they could be introduced to the sprint, insisting on the highest standards}
+                %
+                %
+            %
+                %
+                    \item{Developed new formula for sprint capacity estimation, which combined with other changes reduced sprint rollover by 75 percent}
+                %
+                %
+            %
+                %
+                    \item{Ran bi-weekly sprint retros to gather feedback and plan improvements to team productivity}
+                %
+                %
+            %
+                %
+                    \item{Introduced new tenants and goals for testing procedures to ensure tests were targeting and finding critical bugs within the existing architecture}
+                %
+                %
+            %
+                %
+                    \item{Re-designed and rebuilt functional tests to span across multiple services and focus on customer stories from the business requirements documents}
+                %
+                %
+            %
+                %
+                    \item{Implemented integration tests to ensure dependent services were performing as expected}
+                %
+                %
+            %
+                %
+                    \item{Moved all testing to automatic pipeline deployments to remove any manual steps from the deployment process}
+                %
+                %
+            %
+                %
+                    \item{Re-evaluated and added alarms using AWS CloudWatch to ensure that new issues were identified before users needed to report them}
+                %
+                %
+            %
+                %
+                    \item{Hosted bi-monthly organization wide learning series to educate on various emerging technologies and development topics}
+                %
+                %
+            %
+                %
+                    \item{Created several organization wide CDK Constructs for easier infrastructure as code deployments for common architectural patterns}
+                %
+                %
+            %
+                %
+                    \item{Mentored eight different project designs for a variety of new services introduced to the overall architecture}
+                %
+                %
+            %
+                %
+                    \item{Automated bug ticket monitoring system to organize incoming queue}
+                %
+                %
+            %
+                %
+                    \item{Participated in security audits for various existing and new services and systems}
+                %
+                %
+            %
+                %
+                    \item{Participated in interviewing and hiring new candidates to the Amazon Software Development Team}
+                %
+                %
+            %
+                %
+                    \item{Oversaw deprecation of numerous legacy systems, including developing data migration and backup plans}
+                %
+                %
+            %
+                %
+                    \item{Mentored new hires and created a standardized on-boarding packet for new team members}
+                %
+                %
+            %
+                %
+                    \item{Created a Points Poker application in response to Work From Home mandates to allow inclusive collaboration among team members in planning activities}
+                %
+                %
+            %
+                %
+                    \item{Participated in monthly managerial operational excellence review to determine best practices and improvements across multiple teams}
+                %
+                %
+            %
+                %
+                    \item{Participated in yearly Operational planning, including submitting and reviewing technology innovations to be prioritized in the upcoming fiscal year}
+                %
+                %
+            %
+                %
+                    \item{Used Monte-Carlo simulations to determine estimated project milestone and launch dates, based on previous projects undertaken by the team}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+  \cventry
+    {Software Developer}
+    {URBN Inc}
+    {}
+    {2015-08 / 2019-01}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Designed discount and promotional engine for pricing service}
+                %
+                %
+            %
+                %
+                    \item{Guided implementation of Factory based Promotions engine launched to production; collectively handles about 26 million monthly visitors.}
+                %
+                %
+            %
+                %
+                    \item{Worked with small team to build and launch a new brand website; now handles about 4 million monthly visitors}
+                %
+                %
+            %
+                %
+                    \item{Utilized Node.js and Hapi.js web-framework to interactive with API services}
+                %
+                %
+            %
+                %
+                    \item{Harnessed the power of ES6 and functional programming (Ramda.js) to develop rich user interfaces}
+                %
+                %
+            %
+                %
+                    \item{Developed using stream based events (most.js) to handle event based programming paradigms}
+                %
+                %
+            %
+                %
+                    \item{Used LESS based CSS pre-compilation to style and format client facing website}
+                %
+                %
+            %
+                %
+                    \item{Successfully launched website globally at beginning of April 2015, and stayed with team for maintenance till month\textquotesingle s end}
+                %
+                %
+            %
+                %
+                    \item{Worked with a team of developers to build a product management system to be used with multiple brands; collectively handling about 26 million monthly visitors}
+                %
+                %
+            %
+                %
+                    \item{Worked with Oracle/Django/jQuery to build an interactive system to manage products for micro-services architecture}
+                %
+                %
+            %
+                %
+                    \item{Converted all ES5 code to ES6 and updated HTML templates for re-use-ability}
+                %
+                %
+            %
+                %
+                    \item{Used Python services to migrate legacy product data to new system}
+                %
+                %
+            %
+                %
+                    \item{Used SASS based CSS pre-compilation to style and format internally facing website}
+                %
+                %
+            %
+                %
+                    \item{Successfully launched new product management system to internal clients in August 2015, stayed with team for maintenance and feature improvement}
+                %
+                %
+            %
+                %
+                    \item{Re-imagined and rebuilt the e-commerce promotion and coupon management suite}
+                %
+                %
+            %
+                %
+                    \item{Coordinated with e-commerce merchandisers to develop requirements}
+                %
+                %
+            %
+                %
+                    \item{Designed import and export algorithms for various message consumers}
+                %
+                %
+            %
+                %
+                    \item{Prioritized and managed distribution of development resources to ensure timely project completion}
+                %
+                %
+            %
+                %
+                    \item{Worked with multiple teams to oversee weekly deployment cycle and ensure compatibility between all existing and new micro-service operations}
+                %
+                %
+            %
+                %
+                    \item{Managed cross-service features being released by ensuring all contract changes were properly honored.}
+                %
+                %
+            %
+                %
+                    \item{Evaluated all pull-request data across services since the last release to ensure that changes were consistent with story descriptions}
+                %
+                %
+            %
+                %
+                    \item{Cherry-picked release ready commits into a new release branch, for owned services to ensure that all released items had passed user acceptance testing}
+                %
+                %
+            %
+                %
+                    \item{Worked with QA team to integrate a new QA UI Test developer into development team and create a UI Test Suite}
+                %
+                %
+            %
+                %
+                    \item{Created custom UI Test Suite based on Selenium and webdriver.io to allow non-developer testers to create Gherkin format integration tests}
+                %
+                %
+            %
+                %
+                    \item{Created a docker based test environment deployment to all testing multiple service version interactions}
+                %
+                %
+            %
+                %
+                    \item{Moved UI Integration tests into a nightly Jenkins build, to ensure that failures were identified as early in the process as possible}
+                %
+                %
+            %
+                %
+                    \item{Trained a small team of testers to develop new UI tests using integration test suite.}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+  \cventry
+    {Lead Service Software Developer}
+    {Philadelphia Game Lab}
+    {}
+    {2014-01 / 2015-08}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Worked to deploy and develop on AWS EC2 Linux and S3 instances}
+                %
+                %
+            %
+                %
+                    \item{Completed numerous installs of C++, Node.js, PHP, Apache httpd, Mongo and other software on AWS EC2 instances}
+                %
+                %
+            %
+                %
+                    \item{Developed HTTP scripts in C++, and PHP, as well as programs in C++, Python, and Node.js}
+                %
+                %
+            %
+                %
+                    \item{Enabled real-time requests for gaming and live applications in Node.js utilizing websocket technologies}
+                %
+                %
+            %
+                %
+                    \item{Managed a team of eight programmers and a graphic artist through several projects}
+                %
+                %
+            %
+                %
+                    \item{Pitched software architectures successfully to clients, investors, and technology partners}
+                %
+                %
+            %
+                %
+                    \item{Worked with CEO to manage day to day operations of company and personnel management; including hiring 20 new employees}
+                %
+                %
+            %
+                %
+                    \item{Oversaw design and execution of several client and in-house projects}
+                %
+                %
+            %
+                %
+                    \item{Worked with Unity, Unreal, and Oculus Rift for a temporary interactive installation}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+  \cventry
+    {Global Customer Operations Co-Op}
+    {SAP America}
+    {}
+    {2013-04 / 2013-09}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Worked with a design team to build a cross platform mobile theme in CSS and JS which was deployed to internal teams (SAPUI5)}
+                %
+                %
+            %
+                %
+                    \item{Coordinated with numerous departments to gather requirements and develop internal department pages (SAP Portal)}
+                %
+                %
+            %
+                %
+                    \item{Worked to build and update department specific pages on the SAP internal social network (SAP JAM)}
+                %
+                %
+            %
+                %
+                    \item{Trained business users in the use of HTML for the basic purpose of intranet editing in order to ensure continued maintenance of system content}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+  \cventry
+    {Internet Services Co-Op}
+    {National Board of Medical Examiners}
+    {}
+    {2012-04 / 2012-09}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Maintained multiple external and internal applications}
+                %
+                %
+            %
+                %
+                    \item{Integrated updated intranet with existing version in order to ensure compatibility with Microsoft SharePoint}
+                %
+                %
+            %
+                %
+                    \item{Designed and organized layout of new and existing web pages built on ASP.NET VB and Microsoft SharePoint}
+                %
+                %
+            %
+                %
+                    \item{Worked to modernize CSS and JS on existing applications}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+  \cventry
+    {Web Technologies Associate}
+    {Campus Apartments}
+    {}
+    {2010-09 / 2012-04}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Converted database centric proprietary Rental Management System and Tenant portal from ASP.net 1.1 to 4.0 utilizing code behind and Master Pages in VB and C++}
+                %
+                %
+            %
+                %
+                    \item{Simultaneously updated database from SQL Server 2000 to SQL Server 2008 and standardized table and stored procedure naming conventions}
+                %
+                %
+            %
+                %
+                    \item{Photographed buildings and edited images in Photoshop in order to further renters\textquotesingle interest}
+                %
+                %
+            %
+                %
+                    \item{Helped introduce semi-agile work-flow with focus on pair-programming using VisualSVN for Visual Studio}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+  \cventry
+    {Co-Founder / Head of Software Development}
+    {MyOhMy Design and Build}
+    {}
+    {2014-01 / 2015-08}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Innovated 3D modeling process, using CAD software, resulting in a sustained national commercial endeavor}
+                %
+                %
+            %
+                %
+                    \item{Acquired 50+ nation wide clients specializing in off-campus student housing in 15 states}
+                %
+                %
+            %
+                %
+                    \item{Out bid multiple outsourced companies providing similar services in order to secure repeat business}
+                %
+                %
+            %
+                %
+                    \item{Rendered 3D Models in advanced modeling software (V-Ray) using scripting tools to create photo-realistic images for marketing purposes}
+                %
+                %
+            %
+                %
+                    \item{Collaborated with property managers/owners and on-site personnel to ensure model accuracy}
+                %
+                %
+            %
+                %
+                    \item{Expanded process to meet market needs and developed a staff to meet demand as business expanded}
+                %
+                %
+            %
+                %
+                    \item{Developed numerous proprietary software packages to be used in modeling processes, including model mapping technologies in Ruby, C++, and Java}
+                %
+                %
+            %
+                %
+                    \item{Migrated a ASP.NET MVC website from Rackspace hosting server to an AWS EC2 instance for non-profit organization}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+\end{cventries}
+
+\cvsection{Education}
+\begin{cventries}
+ 
+  \cventry
+    {Bachelor of Science in Computer Engineering}
+    {Drexel University}
+    {Philadelphia PA}
+    {2010-09-20 / 2015-06-15}
+    {
+        %
+          \begin{cvitems}
+            %
+                %
+                    \item{Major in Computer Engineering}
+                %
+                %
+            %
+                %
+                    \item{Minor in Electrical Engineering}
+                %
+                %
+            %
+                %
+                    \item{Minor in Business Administration}
+                %
+                %
+            %
+          \end{cvitems}
+        %
+    }
+ 
+\end{cventries}
+
+%< $ include 'project.tex' $ >
+%< $ include 'extracurricular.tex' $ >
+
+\end{document}
