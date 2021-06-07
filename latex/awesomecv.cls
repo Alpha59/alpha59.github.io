@@ -212,6 +212,7 @@
 \newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\color{lightergray} #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1.1em}\bodyfontlight\upshape\color{text}}
+\newcommand*\pct{\protect\scalebox{0.9}{\% }}
 
 % For elements of entry
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\color{awesome} #1}}
@@ -649,7 +650,7 @@
 }{
   \end{itemize}
   \end{justify}
-  \vspace{1mm}
+  \vspace{0.5mm}
 }
 
 % Define an environment for cvsubentry
