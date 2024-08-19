@@ -5,15 +5,15 @@
     "phone": "1-484-354-9199",
     "email": "ailor.john.r@gmail.com",
     "location": {
-      "city": "Seattle",
-      "region": "Washington"
+      "city": "Philadelphia",
+      "region": "Pennsylvania"
     },
     "name": "John R. Ailor",
     "fname": "John",
-    "mname": "R.",
+    "mname": "R",
     "lname": "Ailor",
-    "cover": "Please find enclosed my resume, which outlines my relevant experience for this position, as well as my education. I am an experienced Software Engineer with a demonstrated history of working in e-commerce, operations, and cloud computing. I am skilled in Software Architecture, Technical Writing, Software Development, and hold a Bachelor\\textquotesingle s degree focused in Computer Engineering from Drexel University. I have gained over nine years of experience working with a full stack of web technologies and general back-end computing platforms. Over the course of my career I have had the opportunity to gain a great deal of experience writing technical reports and documenting software architecture. I have lead several teams through various projects, seen multiple projects go from idea to production under my supervision, and mentored numerous junior team members in their project goals. I consider myself a well rounded programmer with a focus on real world software applications that contribute to advancing productivity and business goals of the company or client for which I am working. I believe that any team I am given the opportunity to work with will find that I am a dedicated employee who looks for the best solution to any problem.",
-    "summary": "Enterprising Software Engineer with 9+ years of experience working to deliver sustainable applications focused around highly configurable, scalable, and capable designs. Managed the re-architecture of numerous business critical applications, both customer facing and operational. Eager to work closely with a new team in a management role to find the ideal solutions to software problems.",
+    "cover": "Find enclosed my resume, which outlines my relevant experience for this position, and education. I am an experienced Software Engineer with a demonstrated history of working in e-commerce, operations, and cloud computing. I am skilled in Software Architecture, Technical Writing, Software Development, and hold a Bachelor\\textquotesingle s degree focused on Computer Engineering from Drexel University. I have gained over ten years of experience working with a full-stack of web technologies and general back-end computing platforms. Over the course of my career, I have gained a great deal of experience writing technical reports and documenting software architecture. I have led several teams through various projects, and seen multiple projects go from concept to production under my supervision. On numerous occasions I have mentored team members in their project goals. I am a well-rounded programmer with a focus on software applications that contribute to advancing productivity and business goals of the company or customer. Any team I am given the opportunity to work with will find a dedicated employee who looks for the ideal solution to every problem. \\par My current career goals are aligned with moving towards a people management role in a technical space. This will help to expand the breadth of skills, while using my existing management style and techniques to drive innovation. Throughout my career, I have focused on capability building, for both technical solutions, and technical employees. As a Senior engineer, I work closely with Software developers, stakeholders, and leadership to persistently push for innovative solutions with capabilities beyond the momentary needs. As a Software Development Manager, the opportunities to expand on my force multiplying effect, and drive innovation will continue to expand.  \\par As a current employee of Amazon, I know that the Amazon team, and company culture are what allow them to strive for innovation. The culture within the Amazon, inspires employees to strive for the best. Software Development Teams at Amazon are truly unsurpassed in the ability to work as a software innovation leader, while giving the environment of an innovative start-up. Within every position, there is room for growth and opportunity, from a career perspective, and from the perspective of innovation. Lessons learned within the truly fast-paced development groups inform my ongoing decisions. I look forward to continuing my journey at Amazon in an SDM role where I am able to innovate and drive innovation.",
+    "summary": "Senior Software Development Engineer at Amazon, actively seeking opportunities to transition into a Software Manager role.\\par I am particularly interested in people management within a technical domain, with the goal of broadening my abilities as a force multiplier. I remain open to roles that blend development and management responsibilities, leveraging my technical expertise while enhancing my leadership capabilities.\\par With over a decade of experience, I am a dedicated Software Engineer known for delivering highly configurable, scalable, and robust applications. I have successfully managed the re-architecture of numerous mission-critical applications, encompassing both customer-facing and operational systems. My ambition is to collaborate with an active team in a managerial capacity, striving to develop optimal software solutions.",
     "picture": "",
     "profiles": [
       {
@@ -31,7 +31,7 @@
   "skills": [
     {
       "name": "Front-end Development",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "JavaScript",
         "React",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Microservice Development",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "Node.js",
         "Python",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Software Architecture",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "AWS",
         "Cloud",
@@ -67,7 +67,7 @@
     },
     {
       "name": "Languages",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "C++",
         "Python",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Software/Applications",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "MS Visual Studio",
         "Git",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Databases",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "MongoDB",
         "DocumentDB",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Markup/Style",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "Multi-Markdown",
         "HTML5",
@@ -140,7 +140,7 @@
     },
     {
       "name": "Integration Testing",
-      "level": "Master",
+      "level": "Expert",
       "keywords": [
         "Selenium",
         "nightwatch.js",
@@ -149,13 +149,13 @@
     }
   ],
   "meta": {
-    "version": "vAMZN-1",
+    "version": "vAMZN-SDM-1",
     "lastModified": "2021-06-05",
     "name": "resume",
     "role": "software-development-manager",
     "focus": "management",
-    "company": "",
-    "notes": "",
+    "company": "Amazon",
+    "notes": "This resume is focused on an Amazon SDM position, tailored towards Amazon terms",
     "theme": "elegant"
   },
   "education": [
@@ -181,54 +181,59 @@
   "work": [
     {
       "company": "Amazon Inc",
-      "position": "Software Development Engineer II",
+      "position": "Sr. Software Development Engineer",
       "startDate": "2019-01",
       "endDate": "Present",
-      "summary": "Focused on Amazon Device Reverse Logistics to re-architecture existing hard coded warehouse systems to a configurable AWS server-less architecture",
+      "summary": "Concentrated on Amazon Device Reverse Logistics, re-Rearchitected existing hard-coded warehouse systems to a configurable AWS server-less architecture",
       "highlights": [
-        "Redesigned, and Rearchitected all core services into a configurable orchestration service to replace hard-coded workflow system",
-        "- Managed project work including resource management across seven team members, ensuring deadlines were met",
-        "- Re-used existing services where possible, modified to run on server-less architecture 65\\pct response time reduction",
-        "- Worked with four dedicated business partners to collect appropriate requirements and ensure that all use cases were covered",
-        "- Worked with operational partners to re-design outbound transportation routing rule engine",
-        "- Launched a new region to accommodate the release of major new product initiatives, and expected increase in returns",
-        "- Oversaw deprecation of six legacy systems, including developing data migration and backup plans",
-        "- Used Monte-Carlo simulations to determine project milestones and launch dates, based on previous project velocities",
-        "Designed and managed a multi-team initiative, reducing the number of service teams involved in reverse logistics by a third",
-        "- Integrated Online Device returns with third party Retailer Device Returns, condensing the number of operational lines in the return center by 30\\pct",
-        "- Expanded services to include management of third party devices in the same reverse logistics space, increasing the number of operations possible for non-Amazon device returns",
-        "- Worked closely with Finance and Accounting teams to ensure compliance was maintained throughout the project release, with no value loss during launch",
-        "Pushed Team\\textquotesingle s Operational Excellence forward with new upgraded technology stack proposals",
-        "- Moved technology stack to a cloud architecture with an 85\\pct reduction in on-site servers",
-        "- Migrated existing service stack to server-less technology to ensure scalability across all regions",
-        "- Migrated existing service stack to infrastructure as code, reducing the technology burden of adding a new region from two months down to three days",
-        "Re-imagined teams agile process to include procedures and mechanisms to guarantee success; reduced sprint rollover by 75\\pct",
-        "- Implemented new story and ticket procedures that focused on quality and traceability, including a rubric and templates",
-        "- Reviewed and provided feedback on every story and ticket before introducing to the sprint, insisting on the highest standards",
-        "- Developed new formula for sprint capacity estimation, utilizing a moving average of goals met versus capacity estimated",
-        "Introduced new tenants and goals for testing procedures to ensure tests were targeting and finding critical bugs within the existing architecture",
-        "- Re-designed and rebuilt functional tests to span across multiple services and focus on customer stories from the business requirements documents",
-        "- Implemented integration tests to ensure dependent services were performing as expected",
-        "- Moved all testing into both automatic pipeline deployments, and automated change request tool to remove manual steps from the deployment process",
-        "- Automated bug ticket monitoring system to organize incoming queue",
-        "- Re-evaluated alarms using AWS CloudWatch to ensure that new issues were identified before users filed a report",
-        "Hosted bi-monthly organization wide learning series to educate on various emerging technologies and development topics",
-        "- Held comparative lectures on internal versus external discussions in both technology and architecture patterns",
-        "- Presented on architectural trends including Nanoservice and Infrastructure as Code",
-        "- Taught lessons in regards to best practices and operational excellence in both technology stack and development practices",
-        "Mentored both projects and employees through initial stages of service design",
-        "- Mentored twelve different project designs for a variety of new services introduced to the overall architecture",
-        "- On-boarded and provided continued mentoring for two new hires and two interns within development team",
-        "- Created standardized on-boarding packet for new team members to introduce both company standards and team technologies",
-        "Collaborated with managers and leaders within department to establish goals, mechanisms, and techniques for increased productivity",
-        "- Participated in monthly managerial operational excellence review to determine best practices across multiple teams",
-        "- Ran bi-weekly sprint retros to gather feedback regarding team productivity, including creation of future action-items",
-        "- Participated in security audits for various existing and new services and systems",
-        "- Advised on yearly planning, submitting and reviewing technology innovations to be prioritized in each fiscal year",
-        "- Created organizational CDK Constructs for easier infrastructure as code deployments for common architectural patterns",
+        "Rearchitected core services of the team into a configurable orchestration service to replace the hard-coded workflow system",
+        "- Managed project work, including resource management across nine team members, ensuring timely delivery of projects for business users",
+        "- Re-used existing services where applicable, altered to run a server-less architecture, producing a 45\\pct response time reduction on page load",
+        "- Worked with dedicated operational supply chain partners, and business partners to collect requirements, ensuring coverage of all use cases",
+        "- Oversaw the deprecation or migration of six legacy systems, including developing zero downtime data migration and backup plans",
+        "Launched a new return center to accommodate the release of major new product initiatives and the expected increase in returns",
+        "Maintained an engineering team of nine developers, guiding the integration of Third-Party Retailer Device Returns and condensing operational lines by 30\\pct",
+        "- Demonstrated customer obsession and ownership to ensure project alignment with customer needs and long-term goals of organization",
+        "- Expanded services to include management of returns from third-party device resellers, increasing operations available for all returns services",
+        "- Maintained a world-class team by coaching and developing engineers, fostering a culture of pragmatic engineering decisions and mechanisms",
+        "- Collaborated with stakeholders, and accounting teams to ensure compliance and smooth project release, demonstrating strong cross-functional skills; delivered with no value loss",
+        "- Wrote weekly business updates for senior management review and monthly reports for senior director review from both technical and business teams",
+        "Served as the leader in definition and development of multi-tier web services for 5+ years, reducing legacy servers by 85\\pct, migrating to a serverless stack",
+        "- Highlighted invent and simplify by introducing innovative solutions that simplify architecture; reducing sources-of-truth to one",
+        "- Migrated existing service stack to server-less technology, AWS ECS running on Fargate, to ensure scalability and unified deployment across all regions",
+        "- Established Infrastructure-as-code practices (CDK), to reduce technology burden of adding a new region from four months down to four weeks",
+        "Re-imagined team\\textquotesingle s agile process to include procedures and mechanisms to guarantee success; reduced sprint rollover by 65\\pct",
+        "- Insisted on the highest standards by re-imagining agile processes; realigned mechanisms to guide success, adapting agile strategy to fit team dynamics",
+        "- Implemented new story and ticket procedures, Story Bar Raiser, stressing quality and traceability, including a rubric and templates for highest standards",
+        "- Presented new mechanisms for ticket procedures at company wide conference on best practices for writing",
+        "- Reviewed and provided feedback on stories and ticket before the introduction to the sprint, ensuring compliance with team standards",
+        "- Developed a new formula for sprint capacity estimation, utilizing a moving average of goals met versus capacity estimated; integrated product stakeholders into sprint planning",
+        "Introduced new tenants and goals for testing procedures to target critical bugs within the existing architecture, decreasing escaped defects by 50\\pct",
+        "- Re-designed functional tests to span across multiple services, focusing on customer stories from the business requirements",
+        "- Implemented integration tests to ensure dependent services respond as expected during automatic pipelines deployments",
+        "- Automated bug ticket monitoring system to organize the incoming queue, reducing manual error escalations by 30\\pct",
+        "- Re-evaluated alarms while migrating to use AWS CloudWatch to ensure that new issues are identified before users file a report",
+        "Hosted bi-monthly organization-wide learning series to educate on emerging technologies and development topics",
+        "- Hosted comparative lectures on internal versus external discussions in technology and architecture patterns",
+        "- Presented on architectural trends including Nanoservice, Containerization, and Infrastructure-as-Code before practices were widely adopted",
+        "- Presented team-level mechanisms used to ensure continual monitoring and resolution of re-occurring issues",
+        "- Presented lessons regarding best practices and operational excellence in technology stack and development practices",
+        "Mentored projects and employees through initial stages of service design, project planning, and plan of record",
+        "- Mentored twelve different project designs for new services, replacing legacy architecture. Developed delivery plan with project single-threaded owners",
+        "- On-boarded and provided continued mentoring for eight new hires and three interns within the development team, converting two interns to full-time",
+        "- Created a standardized on-boarding packet for new team members to introduce company standards, team charter, goals, and technologies",
+        "Collaborated with managers and leaders within the department to establish goals, mechanisms, and techniques for increased productivity",
+        "- Participated in a monthly managerial operational excellence review to determine industry standard practices across teams",
+        "- Demonstrated the ability to earn trust by collaborating with leaders to establish favorable practices for delivery, escalation, and communication",
+        "- Communicated with users, technical teams, and senior leadership to collect requirements, describe software product features, technical designs, and product strategy, ensuring alignment and successful project delivery",
+        "- Advised on yearly plans, submitting and reviewing technology innovations to be prioritized in each fiscal year",
+        "- Created, scoped, and prioritized eight operational projects across a multi-year plan with operational users and leadership",
+        "- Gathered team feedback in a monthly meeting to review employee satisfaction and opinions, reporting anonymous results to management",
+        "Managed the redesign and re-architecture of Operations Portals, improving customer satisfaction scores by 25\\pct and reducing load times by 60\\pct",
         "Managed product launches in each of the available reverse logistic regions",
         "Participated in interviewing and hiring new candidates to the Amazon Software Development Team",
-        "Created a Points Poker application in response to Work From Home mandates to allow inclusive collaboration among team members in planning activities"
+        "Created a Code Review Commit Message Analyzer with 150K monthly invocations across the company",
+        "Collaborated in expanding a Points Poker application in response to work from home mandates to allow inclusive collaboration"
       ]
     },
     {
@@ -236,102 +241,121 @@
       "position": "Software Developer",
       "startDate": "2015-08",
       "endDate": "2019-01",
-      "summary": "Worked across numerous business and technology spaces to deliver products for e-commerce team",
+      "summary": "Conducted work across numerous business and technology spaces to deliver products and services for e-commerce and merchandising teams",
       "highlights": [
-        "Designed and managed the implementation of promotional engine for pricing service",
-        "- Guided the implementation of a Factory based promotions engine launched to production; collectively handling approximately 26 million monthly visitors",
-        "- Worked with team for five developers to build and launch promotional engine, managing project from idea to production",
+        "Designed and managed the implementation of a promotional engine for the pricing service, handling 26 million monthly visitors",
+        "- Demonstrated ownership and delivered results by managing the project from conception to production",
+        "- Guided the implementation of a factory-based promotions engine launched to production; collectively handling approximately 26 million monthly visitors",
+        "- Worked with a team of five developers, business executives, legal team, and marketing team to define promotional engine requirements",
         "- Prioritized and managed distribution of development resources to ensure timely project completion",
-        "- Collaborated with sibling teams within organization to ensure that software contract terms were defined and adhered to throughout development",
-        "Worked with a team of four developers to build and launch a new brand website; which handled 4 million monthly visitors after initial launch",
-        "- Utilized functional JavaScript techniques to build interactive e-commerce website build on existing API services",
-        "- Collaborated with project owners to ensure that brand image was maintained throughout e-commerce platform",
-        "- Hosted bi-monthly sync with testing team to ensure that user testing procedures were updated to include new website functionality",
-        "- Successfully launched website globally at beginning of April 2015, and stayed with team for maintenance till month\\textquotesingle s end",
-        "Worked with a team of developers to build a product management system to be used with multiple brands; collectively handling about 26 million monthly visitors",
-        "- Worked with Oracle/Django/jQuery to build an interactive system to manage products for micro-services architecture",
-        "- Coordinated with e-commerce merchandisers to develop requirements and understand use cases",
-        "- Successfully launched new product management system to internal clients in August 2015, stayed with team for maintenance and feature improvement",
-        "Worked with multiple teams to oversee weekly deployment cycle and ensure compatibility between all existing and new micro-service operations",
-        "- Managed cross-service features being released by ensuring all contract changes were properly honored.",
-        "- Evaluated pull-request data across services since the last release to ensure that changes were consistent with story descriptions",
-        "- Cherry-picked release ready commits into a new release branch, for owned services to ensure that all released items had passed user acceptance testing",
-        "Worked with QA team to integrate a new QA UI Test developer into development team and create a UI Test Suite",
-        "- Created custom UI Test Suite based on industry standard technologies to allow non-developer testers to create Gherkin format integration tests",
-        "- Created a docker based test environment deployment, testing multiple service version interactions",
-        "- Moved UI Integration tests into a nightly build cycle, to ensure that failures were identified as early in the process as possible",
-        "- Trained a small team of testers to develop new UI tests using integration test suite",
-        "Helped to migrate legacy data from third party system to in-house solution using data migration scripts written in Python",
-        "- Utilized a combination of event bus population, and database level migration to ensure that no real-time or historical data was lost during migration",
-        "- Helped deprecate costly third party software previously being utilized for e-commerce management",
-        "- Mentored third party contractors who were hired for legacy systems through the transition to in-house technology developers"
+        "- Collaborated with sibling teams within the organization to ensure software contract definitions, and adherence throughout development",
+        "Directed a team in building and launching a new brand website, maintaining 4 million monthly visitors post-launch",
+        "- Showcased customer obsession and invent and simplify by ensuring the brand image was maintained, and the site was innovative",
+        "- Used functional JavaScript techniques to build interactive e-commerce websites that ran on existing API services",
+        "- Collaborated with project owners to ensure that the brand image is consistently maintained throughout the e-commerce platform",
+        "- Hosted bi-monthly sync with the testing team to ensure that user testing procedures are up-to-date, including new website functionality",
+        "- Successfully launched website globally at the beginning of April 2015, and stayed with team for maintenance until month\\textquotesingle s end",
+        "Worked with a team of developers, delivering a product management system used across multiple brands; handling over 1 million products annually",
+        "- Demonstrated dive deep by ensuring thorough understanding and integration of the system across entire catalog architecture",
+        "- Worked with Oracle/Django/jQuery to build an interactive system to manage products for microservices architecture",
+        "- Coordinated with e-commerce merchandisers to develop requirements and understand use cases with market brands, tailoring solutions to user base",
+        "- Successfully launched a new web product merchandising system to internal clients in August 2016, stayed with team for continued feature improvement",
+        "Worked with multiple teams to oversee the weekly deployment cycle and ensure compatibility between all existing and new microservice operations",
+        "- Showed an insistence on the highest standards by maintaining high quality in deployments; reviewed all deployments before customer facing launches",
+        "- Managed cross-service features being released by ensuring all contract changes are properly honored, collaborating across eight service teams",
+        "- Evaluated pull-request data across services since the last release to ensure that changes remained consistent with story descriptions",
+        "- Cherry-picked release-ready commits into a new release branch, to ensure that all release items passed user acceptance testing",
+        "Worked with the QA team to integrate a new QA UI Test developer into the development team and create a UI Test Suite for continuous deployment",
+        "- Integrated a UI Test Suite, automating nightly builds and training testers, increasing automated test coverage to 85\\pct.",
+        "- Created a custom UI Test Suite based on industry standard technologies to allow non-developer testers to create Gherkin format integration tests",
+        "- Created a docker-based test environment deployment, testing multiple service version interactions for backwards compatibility",
+        "- Moved UI integration tests into a nightly build cycle, to ensure identification of failures as early in the process as achievable",
+        "- Trained a team of three QA testers on new UI integration test suite, ensured low-code environments concentrated on validating business requirements",
+        "Migrated legacy data from third-party systems to in-house solutions using Python scripts, reducing data processing times by 40\\pct. Exhibited bias for action by efficiently managing data migrations",
+        "- Used a combination of event bus population and database-level migration to ensure that no real-time or historical data was lost during migration",
+        "- Helped deprecate expensive third-party (Oracle) software previously being utilized for e-commerce management",
+        "- Mentored third-party contractors, hired for legacy systems, through the transition to in-house technology developers",
+        "Collaborated with cross-functional teams, including business users and operations teams, to ensure comprehensive project understanding and alignment",
+        "Mentored six junior developers and interns, guiding them through project development and helping them to achieve their career goals, thereby enhancing team capabilities"
       ]
     },
     {
       "company": "Philadelphia Game Lab",
-      "position": "Lead Service Software Developer",
+      "position": "Service Software Technology Lead",
       "startDate": "2014-01",
       "endDate": "2015-08",
-      "summary": "Designed and implemented a scalable Backend-as-a-Service infrastructure while managing developers across numerous teams",
+      "summary": "Designed and implemented a scalable Backend-as-a-Service infrastructure while managing developers across numerous teams.",
       "highlights": [
-        "Managed a team of eight programmers and a graphic artist through multiple primary projects",
-        "- Managed team for Android application contracted for a learning community",
-        "- Designed back-end and managed team for web application used in a university seminar",
+        "Managed a team of eight programmers and a graphic artist through multiple primary projects, including Android, Web, and Real-Time Gaming applications",
+        "- Demonstrated ownership and delivery of results by successfully leading five customer projects to completion",
+        "- Managed team for Android application contracted for an ADA learning community, working with Speech therapists to develop requirements and testing",
+        "- Designed the back-end and managed a team for the web application used in a university seminar; collaborated with MBA professors to define application functionality and user experience",
         "- Designed and oversaw the creation of three real-time gaming applications utilizing emerging WebSocket technologies",
-        "Worked as team lead for Backend as a Service project designed to support applications created at small companies",
-        "- Developed HTTP scripts in C++, and PHP, as well as programs in C++, Python, and Node.js",
-        "- Worked to deploy and develop on AWS EC2 Linux and S3 instances",
-        "- Completed numerous installs of C++, Node.js, PHP, Apache httpd, MongoDB and other software on AWS EC2 instances",
-        "Managed personnel and project resource allocation for server-side technology department",
-        "- Pitched software architectures successfully to clients, investors, and technology partners",
-        "- Worked with CEO to manage day-to-day of company and personnel management; including hiring 20 new employees",
-        "- Directly managed four project leads as they planned, developed, and launched applications directly to customers"
+        "Worked as team lead for Backend-as-a-Service project designed to support applications created at start-up companies",
+        "- Illustrated invent and simplify by creating scalable and streamlined backend solutions, introducing an AWS Backend-as-a-Service to reduce time to market",
+        "- Developed HTTP scripts in C++, and PHP, and programs in Python, and Node.js to create a holistic service architecture for Backend data management",
+        "- Worked to deploy and develop on AWS EC2 Linux and S3 instances, included automated service scaling based on traffic demands",
+        "- Completed numerous installations of C++, Node.js, PHP, Apache httpd, MongoDB and other software on AWS EC2 instances",
+        "Managed personnel and project resource allocation for the server-side technology department",
+        "- Collaborated internal stakeholders, and external clients, to pitch software plans, demonstrating strong cross-functional collaboration skills",
+        "- Demonstrated think big by envisioning and communicating bold solutions to reduce client time to market",
+        "- Worked with the CEO to manage the day-to-day operations of the company and personnel management; including hiring 20 new employees",
+        "- Directly managed four project leads as they planned, developed, and launched applications directly to customers",
+        "Directly managed nine employees, helping them to grow professionally and contribute effectively to project goals, thereby enhancing overall team performance"
       ]
     },
     {
       "company": "MyOhMy Design and Build",
       "position": "Co-Founder / Head of Software Development",
-      "startDate": "2014-01",
-      "endDate": "2015-08",
-      "summary": "Co-founded a small company to fill a perceived market gap in apartment rental visualization, using priority tooling and technologies to expand efficiently while maintaining a small staff",
+      "startDate": "2010-03",
+      "endDate": "2014-01",
+      "summary": "Co-founded a company to fill a market gap in apartment rental visualization, using proprietary tools and technology to expand efficiently to a three person staff",
       "highlights": [
-        "Acquired 50+ nation wide clients specializing in off-campus student housing in 15 states",
-        "- Out bid multiple outsourced companies providing similar services in order to secure repeat business",
-        "- Collaborated with property managers/owners and on-site personnel to ensure model accuracy",
-        "Innovated 3D modeling process, using CAD software, resulting in a sustained national commercial endeavor",
-        "- Rendered 3D Models in advanced modeling software (V-Ray) using scripting tools to create photo-realistic images for marketing purposes",
+        "Acquired 50+ clients nationwide, specializing in off-campus student housing across 15 states, generating \\$500,000 in annual revenue",
+        "- Demonstrated customer obsession and delivered results by securing and maintaining client relationships",
+        "- Outbid multiple outsourced companies providing similar services to secure repeat business while maintaining low overhead costs",
+        "- Collaborated with property managers and on-site personnel, ensuring model accuracy and demonstrating strong cross-functional skills",
+        "Innovated the 3D modeling process using CAD software for apartment rental visualization, resulting in a sustained national commercial endeavor",
+        "- Served to invent and simplify by developing cost-effective modeling processes, reducing delivery time from an initial 2 months down to three days",
+        "- Rendered 3D models in advanced modeling software (V-Ray) using scripting tools to create photo-realistic images for marketing purposes",
         "- Developed numerous proprietary software packages to be used in modeling processes, including model mapping technologies in Ruby, C++, and Java",
-        "- Utilized rudimentary computer vision to perform pixel level analysis of 2D model representations for 3D model expansion",
-        "Expanded process to meet market needs and developed a staff to meet demand as business expanded",
+        "- Used rudimentary computer vision to perform pixel-level analysis of 2D representations for 3D model expansion, reducing project completion times 50\\pct",
+        "Expanded processes to meet market needs and developed a staff to meet demand as business expanded",
         "- Hired in personnel to travel to on-site locations for enhanced visualization in marketing materials",
-        "- Brought additional 3D modeling specialists into company to keep up with expanding market needs",
-        "Migrated a ASP.NET MVC website from Rackspace hosting server to an AWS EC2 instance for non-profit organization"
+        "- Managed personnel and resource allocation, expanding the process to meet market demands, resulting in a 30\\pct increase in project capacity",
+        "- Demonstrated Ownership by effectively managing resources and personnel",
+        "- Mentored three staff members, facilitating them to enhance their skills and contribute effectively to the company\\textquotesingle s growth, thereby fostering a culture of continuous improvement",
+        "- Recruited additional 3D modeling specialists into the company to keep up with expanding market needs",
+        "Migrated an ASP.NET MVC website from Rackspace to AWS EC2 for a non-profit organization, reducing hosting costs by 40\\pct. Portrayed Bias for Action by efficiently managing the migration process"
       ]
     },
     {
       "company": "SAP America",
-      "position": "Global Customer Operations Co-Op",
+      "position": "Global Customer Operations Developer",
       "startDate": "2013-04",
       "endDate": "2013-09",
-      "summary": "",
+      "summary": "Designed and launched a cross-platform mobile theme and coordinated with departments for internal page development",
       "highlights": [
-        "Worked with a design team to build a cross platform mobile theme in CSS and JS which was deployed to internal teams (SAPUI5)",
-        "Coordinated with numerous departments to gather requirements and develop internal department pages (SAP Portal)",
-        "Built and updated department specific pages on the SAP internal social network (SAP JAM) after gathering requirements from VP level",
-        "Trained business users in the use of HTML for the basic purpose of intranet editing in order to ensure continued maintenance of system content"
+        "Trained business users in HTML for intranet editing, reducing content update times by 60\\pct",
+        "- Demonstrated Learn and Be Curious by educating users on new technologies",
+        "- Worked with a design team to build a cross-platform mobile theme in CSS and JS that was deployed to internal teams (SAPUI5)",
+        "Collaborated with multiple departments to gather requirements and develop internal pages, reducing development cycle times by 30\\pct, showcasing strong cross-functional collaboration",
+        "- Coordinated with numerous departments to gather requirements and develop internal department pages (SAP Portal)",
+        "- Established and updated department-specific pages on the SAP internal social network (SAP JAM) after gathering requirements from the VP level",
+        "- Trained business users in the use of HTML for the basic purpose of intranet editing to ensure continued maintenance of system content"
       ]
     },
     {
       "company": "National Board of Medical Examiners",
-      "position": "Internet Services Co-Op",
+      "position": "Internet Services Developer",
       "startDate": "2012-04",
       "endDate": "2012-09",
-      "summary": "",
+      "summary": "Maintained external and internal applications, integrated an updated intranet, and modernized CSS and JS",
       "highlights": [
-        "Maintained multiple external and internal applications",
-        "Integrated updated intranet with existing version in order to ensure compatibility with Microsoft SharePoint",
+        "Maintained multiple external and internal applications with 50,000 unique external customers per year",
+        "Integrated updated intranet with existing version to ensure compatibility with Microsoft SharePoint",
         "Designed and organized layout of new and existing web pages built on ASP.NET VB and Microsoft SharePoint",
-        "Worked to modernize CSS and JS on existing applications"
+        "Worked to modernize CSS and JS on existing applications to use CSS3 and HTML5 APIs"
       ]
     },
     {
@@ -339,12 +363,12 @@
       "position": "Web Technologies Associate",
       "startDate": "2010-09",
       "endDate": "2012-04",
-      "summary": "",
+      "summary": "Converted a proprietary Rental Management System from ASP.net 1.1 to 4.0, updated SQL Server, and introduced semi-agile workflows",
       "highlights": [
-        "Converted database centric proprietary Rental Management System and Tenant portal from ASP.net 1.1 to 4.0 utilizing code behind and Master Pages in VB and C++",
+        "Converted database-centric proprietary Rental Management System and Tenant Portal from ASP.net 1.1 to 4.0 utilizing code behind in VB and C++",
         "Simultaneously updated database from SQL Server 2000 to SQL Server 2008 and standardized table and stored procedure naming conventions",
-        "Photographed buildings and edited images in Photoshop in order to further renters\\textquotesingle interest",
-        "Helped introduce semi-agile work-flow with focus on pair-programming using VisualSVN for Visual Studio"
+        "Photographed buildings and edited images in Photoshop to attract renters\\textquotesingle interest",
+        "Helped introduce semi-agile work flow with a focus on pair-programming using VisualSVN for Visual Studio"
       ]
     }
   ],
@@ -355,14 +379,14 @@
       "website": "http://saintlukedevon.org",
       "startDate": "2008-05-01",
       "endDate": "2013-09-01",
-      "summary": "Worked to re-design and ....",
+      "summary": "Worked to re-design and manage audio and visual technology for church services and events",
       "highlights": [
-        "Managed Audio and Visual technology for the church services, and band performances",
-        "Installed, upgraded, and maintained audio production equipment for three venues",
-        "Worked with church committee to ensure funding and budget for audio engineering team",
-        "Mentored and trained replacements on how to operate soundboard and audio technology",
-        "Oversaw installation of two projectors and projector screens for visualization of services",
-        "Organized and ensure smooth operations during events and services including personnel management"
+        "Managed audio and visual technology for the church services, events, and band performances",
+        "Installed, upgraded, and maintained audio production equipment for three venues. Replaced all audio-equipment with upgraded system components",
+        "Worked with the budgetary committee to ensure funding and budget for the audio engineering team. Proposed end-to-end system upgrades through written budgetary proposals",
+        "Organized and ensure smooth operations during events, including personnel management, scheduling, and post-processing",
+        "Managed audio and visual technology for services and events, reducing audio system maintenance expenses by 50\\pct. Demonstrated customer obsession by ensuring high-quality audio and visual experiences",
+        "Installed, upgraded, and maintained audio production equipment, reducing equipment downtime by 70\\pct. Showcased Invent and Simplify by enhancing the technical setup"
       ]
     },
     {
@@ -370,33 +394,54 @@
       "position": "National Technology Chair",
       "website": "https://www.nobenational.org/",
       "startDate": "2012-09-01",
-      "endDate": "2013-09-01"
+      "endDate": "2013-09-01",
+      "summary": "Maintained website and managed on-boarding of four new university chapters to the organization",
+      "highlights": [
+        "Introduced four new university chapters, including launching custom branded websites and training university technology chairs",
+        "Managed the development of new features, including a stock market simulation competition, using resources from 10 university chapters for development",
+        "Hosted weekly review with regional technology chairs to drive innovative seminars, talks, and workshops for members"
+      ]
     },
     {
       "organization": "Drexel University Math Student Organization",
       "position": "Website Management Chair",
       "website": "http://www.pages.drexel.edu/~dsomso/",
       "startDate": "2012-09-01",
-      "endDate": "2013-09-01"
+      "endDate": "2013-09-01",
+      "summary": "Implemented, launched, and maintained website to host calendar of events and organizational updates",
+      "highlights": [
+        "Organized with student committee and staff advisors to design and implement a website for organization",
+        "Hosted weekly events with organization members to drive knowledge sharing within mathematics community"
+      ]
     },
     {
       "organization": "National Organization for Business and Engineering at Drexel",
       "position": "Technology Development Chair",
       "website": "https://www.nobedrexel.org/",
       "startDate": "2011-09-01",
-      "endDate": "2012-09-01"
+      "endDate": "2012-09-01",
+      "summary": "Worked with university chapter and national chapter to organize events, maintain websites functionality, and host national conference",
+      "highlights": [
+        "Attended weekly sync with national chapter technology chair to present updates on website progress and upcoming events",
+        "Organized monthly engineering focused events to create a cross-collaborative space between business and engineering students",
+        "Created technology focused sections of National Conference bid; Recruited presenters for national conference after being selected to host"
+      ]
     }
   ],
   "interests": [
     {
       "name": "Sailing",
-      "summary": "Certified Sailor, and Sailing enthusiast"
+      "summary": "Certified Sailor, and Sailing Enthusiast"
+    },
+    {
+      "name": "Motorcycles",
+      "summary": "Licensed Motorcyclist, and Motorcycle Enthusiast"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "level": "native"
+      "level": "Native"
     }
   ]
 }

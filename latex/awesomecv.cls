@@ -110,7 +110,7 @@
 %% Page Layout
 % Configure page margins with geometry
 % \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
-\geometry{left=0.5in, top=0.5in, right=0.5in, bottom=0.5in, footskip=0in}
+\geometry{left=0.5in, top=0.5in, right=0.5in, bottom=0.5in, footskip=4.08003pt}
 
 
 %% Header & Footer
@@ -221,11 +221,8 @@
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{graytext} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 \newcommand*{\descriptionkeywordsstyle}[1]{{\fontsize{7pt}{1em}\bodyfontlight\upshape\color{text} #1}}
-
 \newcommand*{\projectdescriptionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\upshape\color{graytext} #1}}
-
 \newcommand*{\entrylinkstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\color{graytext} #1}}
-
 
 % For elements of subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
@@ -393,16 +390,16 @@
 \newcommand{\acvHeaderNameDelim}{\space}
 \newcommand{\acvHeaderAfterNameSkip}{2mm}
 \newcommand{\acvHeaderAfterPositionSkip}{.5mm}
-% \newcommand{\acvHeaderAfterAddressSkip}{-.5mm}
+\newcommand{\acvHeaderAfterAddressSkip}{0mm}
 \newcommand{\acvHeaderIconSep}{\space}
-% \newcommand{\acvHeaderSocialSep}{\hspace{2em}}
+%\newcommand{\acvHeaderSocialSep}{\hspace{0em}}
 \newcommand{\acvHeaderSocialSep}{\hspace{\stretch{1}}}
-\newcommand{\acvHeaderAfterSocialSkip}{6mm}
-% \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
+\newcommand{\acvHeaderAfterSocialSkip}{-3mm}
+\newcommand{\acvHeaderAfterQuoteSkip}{0mm}
 
 % Others
 \newcommand{\acvSectionTopSkip}{3mm}
-\newcommand{\acvSectionContentTopSkip}{2.5mm}
+\newcommand{\acvSectionContentTopSkip}{-2.5mm}
 
 
 %-------------------------------------------------------------------------------
@@ -530,18 +527,6 @@
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \faSkype\acvHeaderIconSep\@skype%
         }%
-      \ifthenelse{\isundefined{\@reddit}}%
-        {}%
-        {%
-          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.reddit.com/user/\@reddit}{\faReddit\acvHeaderIconSep\@reddit}%
-        }%
-      \ifthenelse{\isundefined{\@xing}}%
-        {}%
-        {%
-          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.xing.com/profile/\@xing}{\faXingSquare\acvHeaderIconSep\@xing}
-        }%
       \ifthenelse{\isundefined{\@extrainfo}}%
         {}%
         {%
@@ -603,6 +588,7 @@
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
+  \vspace{-0mm}
   \begin{adjustwidth}{1em}{1em}
 }{%
   \end{adjustwidth}
@@ -611,20 +597,23 @@
 
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}}{<date>}{<location>}{<description>}
-\newcommand*{\cventry}[5]{%
+\newcommand*{\cventry}[6]{%
+  \vspace{-0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth - 2em}{L{\textwidth - 4cm - 2em} R{4cm}}
+  \begin{tabular*}{\textwidth - 2em}{L{\textwidth - 0cm - 2em} R{8cm}}
     \ifempty{#2#3}
-      {\entrytitlestyle{#1} & \entrylocationstyle{#4} \\}
-      {\entrypositionstyle{#1} & \entrydatestyle{#3} \\
-      \entrytitlestyle{#2} & \entrylocationstyle{#4} \\}
+      {\entrytitlestyle{#1} \hspace*{0pt}\hfill  \entrylocationstyle{#4} \\}
+      {\entrypositionstyle{#1} \hspace*{0mm}\hfill\hspace{0mm}\entrydatestyle{#3} \\
+      \entrytitlestyle{#2} \hspace*{0pt}\hfill\hspace{20mm} \entrylocationstyle{#4}\\}
 
-    \if\relax\detokenize{#5}\relax
+    \multicolumn{2}{L{\textwidth + 3cm}}{\descriptionstyle{#5}} \\
+
+    \if\relax\detokenize{#6}\relax
     \else
-      \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\
+      \multicolumn{2}{L{\textwidth + 3cm}}{\descriptionstyle{#6}} \\
     \fi
-  \end{tabular*}\vspace{2mm}
+  \end{tabular*}\vspace{-2mm}
 }
 
 % Define an environment for cvitems(for cventry)
@@ -642,7 +631,7 @@
 
 % Define an environment for cvitemssub(for cventry)
 \newenvironment{cvitemssub}{
-  \vspace{1mm}
+  \vspace{.5mm}
   \begin{justify}
   \begin{itemize}[leftmargin=3ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
@@ -736,7 +725,7 @@
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{%
-	\skilltypestyle{#1} & \skillsetstyle{#2} \\
+    \skilltypestyle{#1} & \skillsetstyle{#2} \\
   % so
 }
 

@@ -1,4 +1,4 @@
-\cvsection{Project}
+\cvsection{Projects}
 \begin{cventries}
  <$ for proj in project $>
   \cventry
@@ -6,6 +6,7 @@
     {<! proj.subtitle !>}
     {<! proj.location.city !>}
     {<! proj.startDate !> / <! proj.endDate !>}
+    {<! proj.summary !>}
     {
         %<$ if proj.highlights $>
           \begin{cvitems}
